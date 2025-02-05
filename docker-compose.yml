@@ -1,0 +1,8 @@
+version: '3'
+services:
+  template-ofuq-website:
+    platform: linux/arm64/v8 # added
+    restart: always
+    image: docker-registry.ofuq.ae/template_ofuq_exo_website
+    ports:
+      - '10806:10806'
