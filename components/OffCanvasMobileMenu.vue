@@ -3,11 +3,8 @@
         <div class="mobile-menu-overlay" @click="mobiletoggleClass('removeClass', 'show-mobile-menu')"></div>
         <div class="inner custom-scrollbar">
             <div class="mobile-header">
-                <div class="logo">
-                    <NuxtLink to="/">
-                        <img src="/images/logo/logo-light.svg" alt="site logo">
-                    </NuxtLink>
-                </div>
+                <LogoMenu />
+
                 <button class="mobile-close-btn" @click="mobiletoggleClass('removeClass', 'show-mobile-menu')"></button>
             </div>
             <div class="menu-content">

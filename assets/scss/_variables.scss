@@ -12,11 +12,12 @@ $fontAwesome: "Font Awesome\ 5 Free";
 $body-bg: #000;
 $body-color: #444;
 $body-bg: #fff;
-$heading-color: #030f27;
-$primary: #1292ee;
-$primary-two: #3a7e69;
+// $heading-color: #030f27;
+$heading-color: #2f5496;
+$primary: #4472c4;
+$primary-two: #2f5496;
 $primary-three: #ef6f31;
-$secondary: #444;
+$secondary: #843c0b;
 $secondary-light: #8C89A2;
 $secondary-three: #6ac5f1;
 $success: #67d68a;
@@ -28,6 +29,7 @@ $off-white: #f6f2ed;
 $white-gray: #f2f2f2;
 $white-light: #cacaca;
 $white-opacity-50: rgba(255,255,255,0.5);
+$white-opacity-90: rgba(255,255,255,0.9);
 $white: #fff;
 $black: #000;
 $gray-100: #748494;
@@ -47,6 +49,7 @@ $theme-colors: (
   "dark":       #000,
   "white-gray": $white-gray,
   "white-opacity-50": $white-opacity-50,
+  "white-opacity-90": $white-opacity-90,
   "white":      $white,
   "overlay-black": $overlay-black,
 );

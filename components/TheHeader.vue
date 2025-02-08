@@ -6,12 +6,13 @@
 
                     <!-- Header Logo Start -->
                     <div class="col-xl-2 col-auto order-0">
-                        <div class="header-logo">
+                        <!-- <div class="header-logo">
                             <NuxtLink to="/">
-                                <img class="dark-logo" src="/images/logo/logo-light.svg" alt="Agency Logo">
-                                <img class="light-logo" src="/images/logo/logo-light.svg" alt="Agency Logo">
+                                <img class="dark-logo" src="/images/logo/logo-light.png" alt="Agency Logo">
+                                <img class="light-logo" src="/images/logo/logo-light.png" alt="Agency Logo">
                             </NuxtLink>
-                        </div>
+                        </div> -->
+                        <LogoHeader />
                     </div>
                     <!-- Header Logo End -->
 
@@ -20,17 +21,6 @@
                         <div class="menu-column-area d-none d-xl-block position-static">
                             <Navigation />
                         </div>
-                        <!-- Header Search Start -->
-                        <div class="header-search-area">
-                            <!-- Header Login Start -->
-                            <div class="header-search">
-                                <button class="header-search-toggle" @click="toggleClass('addClass', 'search-popup-open')">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </div>
-                            <!-- Header Login End -->
-                        </div>
-                        <!-- Header Search End -->
 
                         <!-- Header Mobile Menu Toggle Start -->
                         <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
@@ -57,6 +47,7 @@
 </template>
 
 <script>
+
     export default {
         components: {
             Navigation: () => import("@/components/Navigation"),

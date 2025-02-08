@@ -27,9 +27,7 @@ COPY --from=builder /app/.output  /app/.output
 
 # expose the host and port 10804 to the server
 ENV HOST 0.0.0.0
-ENV NITRO_PORT 10806
-ENV NUXT_PORT 10806
-EXPOSE 10806
+
 
 # run the build project with node
 ENTRYPOINT ["node", ".output/server/index.mjs"]

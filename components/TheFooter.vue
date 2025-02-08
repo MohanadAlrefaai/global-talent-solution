@@ -6,11 +6,12 @@
                 <!-- Footer Widget Start -->
                 <div class="col-md-4 col-sm-6 col-12 mt-30">
                     <div class="footer-widget">
-                        <div class="footer-logo">
+                        <!-- <div class="footer-logo">
                             <NuxtLink to="/">
                                 <img :src="footerData.footerAboutWidget.logoSrc" alt="Logo">
                             </NuxtLink>
-                        </div>
+                        </div> -->
+                        <LogoFooter />
                         <div class="footer-widget-content">
                             <div class="content">
                                 <a href="tel:(+1)212-946-2701">{{ footerData.footerAboutWidget.telephone }}</a>
@@ -97,7 +98,7 @@
             <!-- Footer Copyright Start -->
             <div class="row">
                 <div class="col">
-                    <p class="copyright">&copy; 2024 OFUQ Exo Template. Made with <i class="fa fa-heart text-danger"></i> by <a href="https://ofuq.ae" target="_blank">OFUQ Solutions</a></p>
+                    <p class="copyright">&copy; 2025 Al Bawaba Orgwania. Made by <a href="https://ofuq.ae" target="_blank">OFUQ Solutions</a></p>
                 </div>
             </div>
             <!-- Footer Copyright End -->

@@ -13,7 +13,7 @@
         <CallToActionOne />
         <TheFooter />
     </div>
-</template>
+</template>     
 
 <script>
     export default {
