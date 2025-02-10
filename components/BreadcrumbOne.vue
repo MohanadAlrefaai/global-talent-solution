@@ -5,7 +5,7 @@
                 <h1 class="title">{{ title }}</h1>
             </div>
         </div>
-        <div class="page-breadcrumb position-static">
+        <!-- <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb page-breadcrumb">
                     <li class="breadcrumb-item">
@@ -16,7 +16,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 

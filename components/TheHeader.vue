@@ -7,10 +7,10 @@
                     <!-- Header Logo Start -->
                     <div class="col-xl-2 col-auto order-0">
                         <!-- <div class="header-logo">
-                            <NuxtLink to="/">
+                            <NuxtLinkLocale to="/">
                                 <img class="dark-logo" src="/images/logo/logo-light.png" alt="Agency Logo">
                                 <img class="light-logo" src="/images/logo/logo-light.png" alt="Agency Logo">
-                            </NuxtLink>
+                            </NuxtLinkLocale>
                         </div> -->
                         <LogoHeader />
                     </div>
@@ -36,7 +36,7 @@
 
                     <!-- Header Right Start -->
                     <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
-                        <a href="/contact-us" class="btn btn-light btn-hover-primary">Get Started</a>
+                        <NuxtLinkLocale to="/contact-us" class="btn btn-light btn-hover-primary">{{ $localize('common.btn-get-started') }}</NuxtLinkLocale>
                     </div>
                     <!-- Header Right End -->
 

@@ -7,7 +7,7 @@
                     <div class="about-content-full text-center mb-50" data-aos="fade-up">
                         <h2 class="title">Creative agency focused on vision, product and people</h2>
                         <p>Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences.</p>
-                        <NuxtLink to="/about" class="link"> <mark>Read More</mark> </NuxtLink>
+                        <NuxtLinkLocale to="/about" class="link"> <mark>Read More</mark> </NuxtLinkLocale>
                     </div>
                     <!-- Section Title End -->
                 </div>

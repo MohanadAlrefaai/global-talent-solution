@@ -5,28 +5,34 @@
                 <div class="col-lg-5">
                     <!-- Section Title Two Start -->
                     <div class="section-title-two">
-                        <span class="sub-title">Portfolios</span>
-                        <h3 class="title">Selected works.</h3>
+                        <span class="sub-title">{{ $localize('comps.portfolio.title') }}</span>
+                        <h3 class="title">{{ $localize('comps.portfolio.subtitle') }}</h3>
                     </div>
                     <!-- Section Title Two End -->
                 </div>
                 <div class="col-lg-7">
+
+                    <div v-if="props.isHome" class="messonry-button text-lg-end">
+                        <NuxtLinkLocale :to="`/portfolio-gallery`" ><span class="filter-text">{{ $localize('common.btn-show-all') }}</span></NuxtLinkLocale>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-7">
                     <div class="messonry-button text-lg-end">
                         <button @click="filterHandler('all')" :class="{'mixitup-control-active': selectedCat === 'all'}"><span class="filter-text">All</span></button>
                         <button v-for="(filter, index) in categories" :key="index" @click="filterHandler(filter)" :class="{ 'mixitup-control-active': selectedCat === filter }"><span class="filter-text">{{ filter }}</span></button>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-0 box">
-                <div class="col portfolio-item" :class="portfolio.category" v-for="(portfolio, index) in portfolios" :key="index">
+                <div class="col portfolio-item" :class="portfolio.category" v-for="(portfolio, index) in items" :key="index">
                     <div v-if="selectedCat === portfolio.category || selectedCat === 'all'" class="single-portfolio">
                         <div class="thumbnail">
                             <img class="img-fluid" :src="portfolio.imgSrc" :alt="portfolio.title">
                         </div>
                         <div class="content">
                             <h5 class="title">
-                                <NuxtLink to="/project/project-details">{{ portfolio.title }}</NuxtLink>
+                                <!-- <NuxtLinkLocale to="/project/project-details">{{ portfolio.title }}</NuxtLinkLocale> -->
                             </h5>
                         </div>
                     </div>
@@ -36,33 +42,31 @@
     </div>
 </template>
 
-<script>
+<script setup>
     import portfolios from "~/data/portfolios.json"
 
-    export default {
-        data() {
-            return {
-                portfolios,
-                categories: [],
-                selectedCat: 'all'
-            }
-        },
-
-        methods: {
-            filterHandler(selection) {
-                this.selectedCat = selection;
-            },
-            shuffle () {
-                this.portfolios = this.portfolios.groupBy('category')
-            },
-            filterCategories(){
-                this.categories = [...new Set(this.portfolios.map(item => item.category))];
-            }
-        },
-        mounted(){
-            this.filterCategories();
+    const props = defineProps({
+        isHome: {
+            required: false
         }
+    })
+
+    const items = computed(() => {
+        return props.isHome ? portfolios.slice(0, 6) : portfolios
+    })
+
+    const categories = ref([])
+    const selectedCat = ref('all')
+
+
+    const filterCategories = () => {
+        categories.value = [...new Set(portfolios.map(item => item.category))];
     }
+
+    onMounted(() => {
+        filterCategories()
+    })
+
 </script>
 
 <style lang="scss">

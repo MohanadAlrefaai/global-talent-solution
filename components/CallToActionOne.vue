@@ -2,45 +2,43 @@
     <div class="section-padding-t90-b100 overflow-hidden">
         <div class="container shape-animate">
             <!-- Section Title Start -->
-            <SectionTitle title="We are a full-service creative agency" sub-title="Our team of designers, developers and creatives are perfectionists who love what they do and love where they work" add-class-name="mb-30" />
+            <SectionTitle :title="$localize('comps.call-to-action.title')" :sub-title="$localize('comps.call-to-action.subtitle')" add-class-name="mb-30" />
             <!-- Section Title End -->
 
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30">
                 <div class="col mt-30" data-aos="fade-up">
                     <div class="contact-info">
-                        <div class="icon">
+                        <div class="icon mx-3">
                             <img class="svgInject" src="/images/svg/linea/linea-basic-map.svg" alt="Icon">
                         </div>
                         <div class="info">
-                            <h4 class="title">Our Locations</h4>
-                            <span class="info-text"> 110 W 34th St, NYC. <br> 67 Madison Avenue.</span>
+                            <h4 class="title">{{ $localize("comps.contact.locations") }}</h4>
+                            <span class="info-text">Alsuidi building, 4th Street,<br/> Al Mararr, Dubai, U.A.E.<br/> P.O. Box: 36677 </span>
                         </div>
                     </div>
                 </div>
 
                 <div class="col mt-30" data-aos="fade-up">
                     <div class="contact-info">
-                        <div class="icon">
+                        <div class="icon mx-3">
                             <img class="svgInject" src="/images/svg/linea/linea-basic-message-txt.svg" alt="Icon">
                         </div>
                         <div class="info">
-                            <h4 class="title">Give Us A Call</h4>
-                            <span class="info-text"> 0123456789 <br> 0123456789</span>
+                            <h4 class="title">{{ $localize("comps.contact.call") }}</h4>
+                            <span class="info-text"> 023695177 <br/> 0588510625</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="col mt-30" data-aos="fade-up">
                     <div class="contact-info">
-                        <div class="icon">
+                        <div class="icon mx-3">
                             <img class="svgInject" src="/images/svg/linea/linea-basic-mail-open-text.svg" alt="Icon">
                         </div>
                         <div class="info">
-                            <h4 class="title">Help Desk</h4>
+                            <h4 class="title">{{ $localize("comps.contact.email") }}</h4>
                             <span class="info-text">
-                                <a href="mailto:demo@example.com">demo@example.com</a>
-                                <br>
-                                <a href="mailto:demo@example.com">demo@example.com</a>
+                                <a href="mailto:info@albawaba-orgwania.com">info@albawaba-orgwania.com</a>
                             </span>
                         </div>
                     </div>

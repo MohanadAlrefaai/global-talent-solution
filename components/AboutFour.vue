@@ -5,10 +5,7 @@
                 <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
-                            <img src="/images/about/about-3.jpg" alt="image">
-                        </div>
-                        <div class="about-image js-tilt">
-                            <img src="/images/about/about-4.jpg" alt="image">
+                            <img src="/images/elevators/13.jpeg" alt="image">
                         </div>
                         
                         <!-- Animation Shape Start -->
@@ -18,11 +15,11 @@
                 <div class="col-xl-5 col-lg-6 col-12" data-aos="fade-up">
                     <div class="about-content-area about-four">
                         <div class="section-title-two">
-                            <span class="sub-title">Our solutions begin with brand research</span>
-                            <h3 class="title">We’ve worked alongside plenty of brands & startups</h3>
+                            <span class="sub-title">{{ $localize('comps.aboutfour.title') }}</span>
+                            <h3 class="title">{{ $localize('comps.aboutfour.subtitle') }}</h3>
                         </div>
-                        <p>Our team of designers and developers are perfectionists who love what they do – we thrive off pushing the boundaries of our clients’ expectations and our own capabilities.</p>
-                        <NuxtLink to="/" class="btn btn-primary btn-hover-secondary mt-30">Get Started</NuxtLink>
+                        <p>{{ $localize('comps.aboutfour.text') }}</p>
+                        <NuxtLinkLocale to="/contact-us" class="btn btn-primary btn-hover-secondary mt-30">{{ $t('common.btn-touch') }}</NuxtLinkLocale>
                     </div>
                 </div>
             </div>

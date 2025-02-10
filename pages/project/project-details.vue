@@ -29,7 +29,7 @@
                                     <div class="details-list">
                                         <label>Categories</label>
                                         <span>
-                                            <NuxtLink to="">Digital</NuxtLink>
+                                            <NuxtLinkLocale to="">Digital</NuxtLinkLocale>
                                         </span>
                                     </div>
 
@@ -66,7 +66,7 @@
                                         </div>
 
                                         <div class="work-btn">
-                                            <NuxtLink to="/contact-us" class="btn btn-primary btn-hover-secondary">Go to link</NuxtLink>
+                                            <NuxtLinkLocale to="/contact-us" class="btn btn-primary btn-hover-secondary">Go to link</NuxtLinkLocale>
                                         </div>
                                     </div>
                                 </div>

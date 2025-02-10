@@ -1,18 +1,22 @@
 [
     {
-        "count": 650,
-        "text": "Happy Clients"
+        "count": "+10 ",
+        "text": "Years of Warranty",
+        "text_ar": "سنوات ضمان"
     },
     {
-        "count": 780,
-        "text": "finished projects"
+        "count": "+12",
+        "text": "Years of Experience",
+        "text_ar": "سنوات خبرة"
+    },{
+        "count": "+50",
+        "text": "Happy Clients",
+        "text_ar": "عملاء راضون"
     },
     {
-        "count": 245,
-        "text": "skilled experts"
-    },
-    {
-        "count": 980,
-        "text": "media posts"
+        "count": "+60",
+        "text": "Finished Projects",
+        "text_ar": "مشاريع تم إنجازها"
     }
+    
 ]

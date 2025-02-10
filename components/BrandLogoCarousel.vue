@@ -13,9 +13,9 @@
                                     :breakpoints="swiperOptions.breakpoints"
                                 >
                                 <swiper-slide class="brand" v-for="(brand, index) in brandData" :key="index">
-                                    <NuxtLink to="">
+                                    <NuxtLinkLocale to="">
                                         <img :src="brand.logo" alt="brand.alt">
-                                    </NuxtLink>
+                                    </NuxtLinkLocale>
                                 </swiper-slide>
                             </swiper>
                         </div>

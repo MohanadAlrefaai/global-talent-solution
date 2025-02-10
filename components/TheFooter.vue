@@ -4,20 +4,22 @@
             <!-- Footer Top Widgets Start -->
             <div class="row section-padding pt-0 mtn-30">
                 <!-- Footer Widget Start -->
-                <div class="col-md-4 col-sm-6 col-12 mt-30">
+                <div class="col-md-4 col-sm-12 col-12 mt-30">
                     <div class="footer-widget">
                         <!-- <div class="footer-logo">
-                            <NuxtLink to="/">
+                            <NuxtLinkLocale to="/">
                                 <img :src="footerData.footerAboutWidget.logoSrc" alt="Logo">
-                            </NuxtLink>
+                            </NuxtLinkLocale>
                         </div> -->
                         <LogoFooter />
                         <div class="footer-widget-content">
                             <div class="content">
-                                <a href="tel:(+1)212-946-2701">{{ footerData.footerAboutWidget.telephone }}</a>
-                                <a href="mailto:hello@hasagency.com">{{ footerData.footerAboutWidget.email }}</a>
+                                <span>{{ $localize("common.company_name") }}</span>
+                                <a :href="`tel:${footerData.footerAboutWidget.telephone}`">{{ footerData.footerAboutWidget.telephone }}</a>
+                                <a href="mailto:info@albawaba-orgwania.com">{{ footerData.footerAboutWidget.email }}</a>
+                                <span> Alsuidi building, 4th Street, Al Mararr, Dubai, U.A.E. P.O. Box: 36677</span>
                             </div>
-                            <div class="footer-social-inline">
+                            <!-- <div class="footer-social-inline">
                                 <a :href="footerData.footerAboutWidget.twitterUrl" target="_blank">
                                     <i class="fab fa-twitter-square"></i>
                                 </a>
@@ -27,20 +29,45 @@
                                 <a :href="footerData.footerAboutWidget.instagramUrl" target="_blank">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
                 <!-- Footer Widget End -->
-
                 <!-- Footer Widget Start -->
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 mt-30">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30 ps-md-5">
                     <div class="footer-widget">
-                        <h4 class="footer-widget-title">{{ footerData.footerLinkTitleOne }}</h4>
+                        <h4 class="footer-widget-title">{{ $localize('common.pages') }}</h4>
                         <div class="footer-widget-content">
                             <ul>
-                                <li v-for="(nav, index) in footerData.navListOne" :key="index">
-                                    <NuxtLink :to="nav.navUrl">{{ nav.navTitle }}</NuxtLink>
+                                <li>
+                                    <NuxtLinkLocale to="/">{{ pages().home.label }}</NuxtLinkLocale>
+                                </li>
+                                <li>
+                                    <NuxtLinkLocale to="/about">{{ pages().about.label }}</NuxtLinkLocale>
+                                </li>
+                                <li>
+                                    <NuxtLinkLocale to="/about">{{ pages().services.label }}</NuxtLinkLocale>
+                                </li>
+                                <li>
+                                    <NuxtLinkLocale to="/">{{ pages().portfolio.label }}</NuxtLinkLocale>
+                                </li>
+                                <li>
+                                    <NuxtLinkLocale to="/about">{{ pages().contact.label }}</NuxtLinkLocale>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Widget End -->
+                <!-- Footer Widget Start -->
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30">
+                    <div class="footer-widget">
+                        <h4 class="footer-widget-title">{{ $t('common.our_services') }}</h4>
+                        <div class="footer-widget-content">
+                            <ul>
+                                <li v-for="service in serviceData">
+                                    <NuxtLinkLocale :href="`/service/${service.slug}`">{{ $transalteTitle(service) }}</NuxtLinkLocale>
                                 </li>
                             </ul>
                         </div>
@@ -48,50 +75,7 @@
                 </div>
                 <!-- Footer Widget End -->
 
-                <!-- Footer Widget Start -->
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">{{ footerData.footerLinkTitleTwo }}</h4>
-                        <div class="footer-widget-content">
-                            <ul>
-                                <li v-for="(nav, index) in footerData.navListTwo" :key="index">
-                                    <NuxtLink :to="nav.navUrl">{{ nav.navTitle }}</NuxtLink>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Widget End -->
-
-                <!-- Footer Widget Start -->
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">{{ footerData.footerLinkTitleThree }}</h4>
-                        <div class="footer-widget-content">
-                            <ul>
-                                <li v-for="(nav, index) in footerData.navListThree" :key="index">
-                                    <NuxtLink :to="nav.navUrl">{{ nav.navTitle }}</NuxtLink>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Widget End -->
-
-                <!-- Footer Widget Start -->
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">{{ footerData.footerLinkTitleFour }}</h4>
-                        <div class="footer-widget-content">
-                            <ul>
-                                <li v-for="(nav, index) in footerData.navListFour" :key="index">
-                                    <NuxtLink :to="nav.navUrl">{{ nav.navTitle }}</NuxtLink>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Widget End -->
+                
             </div>
             <!-- Footer Top Widgets End -->
 
@@ -108,11 +92,13 @@
 
 <script>
     import footerData from '~/data/footer.json';
+    import serviceData from '~/data/service.json';
 
     export default {
         data() {
             return {
-                footerData
+                footerData,
+                serviceData
             }
         },
     };

@@ -13,9 +13,9 @@
                         <div class="row row-cols-1 no-gutters">
                             <div class="blog-3 col" data-aos="fade-up" v-for="(blog, index) in blogData.slice(0, 3)" :key="index">
                                 <div class="thumbnail">
-                                    <NuxtLink :to="`/blog/${blog.slug}`" class="image">
+                                    <NuxtLinkLocale :to="`/blog/${blog.slug}`" class="image">
                                         <img :src="blog.imgSrc" :alt="blog.title">
-                                    </NuxtLink>
+                                    </NuxtLinkLocale>
                                 </div>
                                 <div class="info">
                                     <ul class="meta">
@@ -33,14 +33,14 @@
                                         </li>
                                     </ul>
                                     <h3 class="title">
-                                        <NuxtLink :to="`/blog/${blog.slug}`">
+                                        <NuxtLinkLocale :to="`/blog/${blog.slug}`">
                                             {{ blog.title }}
-                                        </NuxtLink>
+                                        </NuxtLinkLocale>
                                     </h3>
                                     <div class="desc mb-30">
                                         <p>We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.</p>
                                     </div>
-                                    <NuxtLink :to="`/blog/${blog.slug}`" class="btn btn-primary btn-hover-secondary">Read More</NuxtLink>
+                                    <NuxtLinkLocale :to="`/blog/${blog.slug}`" class="btn btn-primary btn-hover-secondary">Read More</NuxtLinkLocale>
                                 </div>
                             </div>
                         </div>

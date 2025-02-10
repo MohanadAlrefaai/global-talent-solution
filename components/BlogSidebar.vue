@@ -15,9 +15,9 @@
             <div class="sidebar-widget-content">
                 <ul class="sidebar-widget-cate-list">
                     <li v-for="(category, i) in allCategories" :key="i">
-                        <NuxtLink :to="`/blog/categories/${category}`">
+                        <NuxtLinkLocale :to="`/blog/categories/${category}`">
                             <span class="text">{{ category }}</span> <span class="count">{{ `${category.length}`.padStart(2, 0) }}</span>
-                        </NuxtLink>
+                        </NuxtLinkLocale>
                     </li>
                 </ul>
             </div>
@@ -28,13 +28,13 @@
                 <ul class="sidebar-widget-list-post">
                     <li v-for="(blog, i) in blogData" :key="i">
                         <span class="cate">
-                            <NuxtLink :to="`/blog/categories/${cat}`" v-for="(cat, i) in blog.categories.slice(0, 1)" :key="i">
+                            <NuxtLinkLocale :to="`/blog/categories/${cat}`" v-for="(cat, i) in blog.categories.slice(0, 1)" :key="i">
                                 {{ cat }}
-                            </NuxtLink>
+                            </NuxtLinkLocale>
                         </span>
-                        <NuxtLink :to="`/blog/${blog.slug}`"> 
+                        <NuxtLinkLocale :to="`/blog/${blog.slug}`"> 
                             {{ blog.title }}
-                        </NuxtLink>
+                        </NuxtLinkLocale>
                     </li>
                 </ul>
             </div>
@@ -44,7 +44,7 @@
                 <div class="sidebar-widget-banner bg-cover" data-overlay="0.7" :style="{ backgroundImage: `url('/images/bg/breadcrumb-bg.jpg')` }">
                     <h3 class="title">Subscribe to our newsletter</h3>
                     <p>All the latest marketing news, including updates on brand campaigns, and the most interesting insights</p>
-                    <NuxtLink to="">Subscribe Now</NuxtLink>
+                    <NuxtLinkLocale to="">Subscribe Now</NuxtLinkLocale>
                 </div>
             </div>
         </div>
@@ -52,9 +52,9 @@
             <h3 class="sidebar-widget-title">Popular tags</h3>
             <div class="sidebar-widget-content">
                 <div class="tagcloud">
-                    <NuxtLink :to="`/blog/tags/${tag}`" v-for="(tag, i) in allTags" :key="i">
+                    <NuxtLinkLocale :to="`/blog/tags/${tag}`" v-for="(tag, i) in allTags" :key="i">
                         {{ tag }}
-                    </NuxtLink>
+                    </NuxtLinkLocale>
                 </div>
             </div>
         </div>

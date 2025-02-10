@@ -16,8 +16,8 @@
                                     <div class="desc">
                                         <p>{{ banner.text }}</p>
                                     </div>
-                                    <NuxtLink to="/about" class="btn btn-primary btn-hover-secondary">Get Started</NuxtLink>
-                                    <NuxtLink to="/about" class="btn btn-outline-white btn-hover-primary">Learn More</NuxtLink>
+                                    <NuxtLinkLocale to="/about" class="btn btn-primary btn-hover-secondary">Get Started</NuxtLinkLocale>
+                                    <NuxtLinkLocale to="/about" class="btn btn-outline-white btn-hover-primary">Learn More</NuxtLinkLocale>
                                 </div>
                             </div>
                         </div>
@@ -61,15 +61,21 @@
                 sliderData: [
                     {
                         id: 1,
-                        heading: "Designing awesome brands & experiences",
-                        text: "We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your brand and business.",
-                        bgImgSrc: "/images/hero-image/hero-3.jpg"
+                        heading: "Al Bawaba Orgwania: Fast and Accurate Elevator Solutions",
+                        text: "Keeping your elevators running smoothly is our priority. At Albawaba Orgwania, we deliver fast and accurate maintenance, installation, and programming services to minimize downtime and maximize efficiency.",
+                        bgImgSrc: "/images/elevators/6.jpeg"
                     },
                     {
                         id: 2,
-                        heading: "Developing awesome sites & experiences",
-                        text: "We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your brand and business.",
-                        bgImgSrc: "/images/hero-image/hero-4.jpg"
+                        heading: "Proactive Elevator Maintenance: Preventing Problems Before They Happen",
+                        text: "Our comprehensive maintenance programs are designed to keep your elevators operating at peak performance. We identify and address potential issues proactively, minimizing disruptions and extending the lifespan of your equipment.",
+                        bgImgSrc: "/images/elevators/1.jpeg"
+                    },
+                    {
+                        id: 2,
+                        heading: "Intelligent Elevator Programming & Control: Optimizing Performance and Safety",
+                        text: "We leverage the latest advancements in elevator technology and programming to provide intelligent solutions that enhance safety, efficiency, and passenger experience. Our expertise in control systems ensures optimal performance and reliable operation.",
+                        bgImgSrc: "/images/elevators/10.jpeg"
                     }
                 ]
             }

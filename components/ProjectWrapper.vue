@@ -11,16 +11,16 @@
                 <div class="col mt-30" v-for="(project, index) in projectData" :key="index">
                     <div class="work">
                         <div class="thumbnail">
-                            <NuxtLink to="/project/project-details" class="image">
+                            <NuxtLinkLocale to="/project/project-details" class="image">
                                 <img :src="project.imgSrc" :alt="project.title">
-                            </NuxtLink>
+                            </NuxtLinkLocale>
                         </div>
                         <div class="info">
                             <h3 class="title">
-                                <NuxtLink to="/project/project-details">{{ project.title }}</NuxtLink>
+                                <NuxtLinkLocale to="/project/project-details">{{ project.title }}</NuxtLinkLocale>
                             </h3>
                             <p class="desc">{{ project.desc }}</p>
-                            <NuxtLink to="/project/project-details">View Project</NuxtLink>
+                            <NuxtLinkLocale to="/project/project-details">View Project</NuxtLinkLocale>
                         </div>
                     </div>
                 </div>

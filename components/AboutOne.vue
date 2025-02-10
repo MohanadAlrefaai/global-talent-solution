@@ -3,8 +3,8 @@
         <div class="container">
             <!-- Section Title Start -->
             <div class="section-title text-center" data-aos="fade-up">
-                <h2 class="title">We are a full-service creative agency</h2>
-                <p class="sub-title">Our team of designers, developers and creatives are perfectionists who love what they do and love</p>
+                <h2 class="title">{{ $localize('comps.aboutone.title') }}</h2>
+                <p class="sub-title">{{ $localize('comps.aboutone.subtitle') }}</p>
             </div>
             
             <!-- Section Title End -->
@@ -14,11 +14,11 @@
                 <!-- About Image Area Start -->
                 <div class="col-xl-7 col-lg-6" data-aos="fade-up">
                     <div class="about-image-area">
-                        <div class="about-image js-tilt">
-                            <img src="/images/about/agency_about_1.jpg" alt="images">
-                        </div>
-                        <div class="about-image js-tilt">
-                            <img src="/images/about/agency_about_2.jpg" alt="images">
+                        <!-- <div class="about-image js-tilt">
+                            <img src="/images/elevators/5.jpeg" style="object-fit: contain; object-position: center;" width="400" height="300" alt="images">
+                        </div> -->
+                        <div class="about-image js-tilt mt-5">
+                            <img style="object-fit: contain; object-position: center;" src="/images/elevators/7.jpeg" width="500" height="350" alt="images">
                         </div>
 
                         <!-- Animation Shape Start -->
@@ -33,13 +33,13 @@
                     <div class="about-content-area about-one">
                         <!-- Section Title Two Start -->
                         <div class="section-title-two">
-                            <span class="sub-title">Every day brings new challenges</span>
-                            <h3 class="title">Creative agency focused on vision, product and people</h3>
+                            <span class="sub-title">{{ $localize('comps.aboutone.section2.title') }}</span>
+                            <h3 class="title">{{ $localize('comps.aboutone.section2.subtitle') }}</h3>
                         </div>
                         <!-- Section Title Two End -->
 
-                        <p>We’re boldly individual, always original and refreshingly easy-going. Our vision, passion and ideas are matched with focus, expertise and flair.</p>
-                        <NuxtLink to="/about" class="btn btn-primary btn-hover-secondary mt-4">About Us</NuxtLink>
+                        <p>{{ $localize('comps.aboutone.section2.text') }}.</p>
+                        <NuxtLinkLocale to="/about" class="btn btn-primary btn-hover-secondary mt-4">{{ $localize('common.btn-about-us') }}</NuxtLinkLocale>
                     </div>
                 </div>
                 <!-- About Start -->

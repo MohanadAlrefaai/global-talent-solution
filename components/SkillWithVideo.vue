@@ -41,9 +41,9 @@
                             </li>
                         </ul>
                         <!-- Agency List End -->
-                        <NuxtLink to="/contact-us" class="btn btn-primary btn-hover-secondary">
+                        <NuxtLinkLocale to="/contact-us" class="btn btn-primary btn-hover-secondary">
                             Get started for free
-                        </NuxtLink>
+                        </NuxtLinkLocale>
                     </div>
                 </div>
 

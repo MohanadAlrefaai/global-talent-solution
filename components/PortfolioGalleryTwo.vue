@@ -19,7 +19,7 @@
                         </div>
                         <div class="content">
                             <h5 class="title">
-                                <NuxtLink to="/project/project-details">{{ portfolio.title }}</NuxtLink>
+                                <NuxtLinkLocale to="/project/project-details">{{ portfolio.title }}</NuxtLinkLocale>
                             </h5>
                         </div>
                     </div>

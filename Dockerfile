@@ -1,5 +1,5 @@
 # use node 16 alpine image as build image
-FROM node:18.19.1-alpine as builder
+FROM node:22.11.0-alpine as builder
 
 # create work directory in app folder
 WORKDIR /app
@@ -10,7 +10,7 @@ COPY package.json /app/
 # COPY package-lock.json /app/
 
 # install all depencies
-RUN npm install 
+RUN npm install -f
 
 # copy over all files to the work directory
 ADD . /app
@@ -18,7 +18,7 @@ ADD . /app
 # build the project
 RUN npm run build
 
-FROM node:18.19.1-alpine
+FROM node:22.11.0-alpine
 
 WORKDIR /app
 

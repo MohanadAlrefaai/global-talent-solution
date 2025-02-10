@@ -3,8 +3,8 @@
         <div class="container">
             <!-- Section Title Start -->
             <div class="section-title text-center" data-aos="fade-up">
-                <h2 class="title fz-32">Services that create identities, build brands, and get results</h2>
-                <p class="sub-title">We produce beautifully crafted creative solutions that transcend business goals. We provide the exceptional service we’d want to experience ourselves!</p>
+                <h2 class="title fz-32">{{ $localize('comps.services-wrapper.title') }}</h2>
+                <p class="sub-title">{{ $localize('comps.services-wrapper.sub-title') }}</p>
             </div>
             <!-- Section Title End -->
 

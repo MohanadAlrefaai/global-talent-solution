@@ -1,51 +1,51 @@
 {
     "footerAboutWidget": {
         "logoSrc": "/images/logo/logo-dark.png",
-        "telephone": "0123456789",
-        "email": "demo@example.com",
-        "fbUrl": "https://www.facebook.com/",
-        "twitterUrl": "https://twitter.com/",
-        "instagramUrl": "https://www.instagram.com/"
+        "telephone": "02-369-5177",
+        "email": "info@albawaba-orgwania.com",
+        "fbUrl": "",
+        "twitterUrl": "",
+        "instagramUrl": ""
     },
     "footerLinkTitleOne": "Services",
     "navListOne": [
         {
-            "navTitle": "Marketing",
-            "navUrl": "/" 
+            "navTitle": "Elevator Installation",
+            "navUrl": "/service/elevator-installation" 
         },
         {
-            "navTitle": "SEO/SEM",
-            "navUrl": "/" 
+            "navTitle": "Elevator Maintenance",
+            "navUrl": "/service/elevator-maintenance" 
         },
         {
-            "navTitle": "Development",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "UX Design",
-            "navUrl": "/" 
+            "navTitle": "Elevator Programming & Control",
+            "navUrl": "/service/elevator-programming" 
         }
     ],
-    "footerLinkTitleTwo": "Products",
+    "footerLinkTitleTwo": "Useful Links",
     "navListTwo": [
         {
-            "navTitle": "Elementor Guru",
+            "navTitle": "Home",
             "navUrl": "/" 
         },
         {
-            "navTitle": "WooLentor Pro",
-            "navUrl": "/" 
+            "navTitle": "About Us",
+            "navUrl": "/about" 
         },
         {
-            "navTitle": "Plugins",
-            "navUrl": "/" 
+            "navTitle": "Services",
+            "navUrl": "/service" 
         },
         {
-            "navTitle": "Page Builder",
-            "navUrl": "/" 
+            "navTitle": "Portfolio Gallery",
+            "navUrl": "/portfolio-gallery" 
+        },
+        {
+            "navTitle": "Contact Us",
+            "navUrl": "/contact-us" 
         }
     ],
-    "footerLinkTitleThree": "About",
+    "footerLinkTitleThree": "About Company",
     "navListThree": [
         {
             "navTitle": "Features",

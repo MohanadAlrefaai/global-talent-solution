@@ -1,0 +1,136 @@
+{
+  "pages": {
+    "home": {
+      "title": "Home",
+      "description": "At Al Bawaba Orgwania Company, we believe that strong relationships are the foundation of exceptional service. We understand that every client is unique, and we take the time to listen to your specific needs and challenges. Our team of experienced professionals work closely with you to develop customized elevator solutions that meet your requirements and exceed your expectations. From the initial consultation to ongoing maintenance and support, we are committed to providing personalized service and building long-term partnerships. We are dedicated to being your trusted advisor and your reliable partner in vertical transportation."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "At Al Bawaba Orgwania, we're passionate about providing exceptional elevator solutions. We believe in combining technical expertise with a dedication to customer satisfaction."
+    },
+    "blogs": {},
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with Al Bawaba Orgwania for all your elevator needs.  Whether you're looking for new installations, modernization services, maintenance, or repairs, our expert team is ready to assist you. Contact us today for a free consultation."
+    },
+    "error404": {
+      "title": "Page Not Found"
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Al Bawaba Orgwania offers a complete range of elevator services to meet all your vertical transportation needs. From new installations and modernizations to preventative maintenance and 24/7 emergency repairs, our expert team is dedicated to ensuring the safe, reliable, and efficient operation of your elevators. Explore our services below to learn more."
+    },
+    "portfolios": {
+      "title": "Portfolios Gallery",
+      "description": "Explore Al Bawaba Orgwania's portfolio of completed elevator projects.  Browse our gallery to see examples of our new installations, modernizations, and custom solutions for various building types."
+    }
+  },
+  "layout": {
+    "footer": {
+      "email-invalid-title": "Invalid Data",
+      "email-invalid-message": "Please enter a valid email and try again",
+      "email-success-title": "Thanks for contacting us",
+      "email-success-message": "We will reach out to you as soon as possible.",
+      "email-error-title": "Couldn't Send",
+      "email-error-message": "Please try again later!",
+      "invalid-data": "Invalid Data",
+      "fill-all": "Please fill all required fields!"
+    }
+  },
+  "common": {
+    "contactUs": "Contact Us",
+    "our_services": "Our Services",
+    "our_services_title": "Comprehensive Elevator Solutions Tailored to Your Needs",
+    "btn-details": "View Details",
+    "btn-show-all": "Show All",
+    "btn-about-us": "About Us",
+    "company_name": "Al Bawaba Orgwania Information Technology",
+    "title": "Al Bawaba Orgwania",
+    "btn-touch": "Get in Touch",
+    "btn-submit": "Submit",
+    "btn-get-started": "Get Started",
+    "pages": "Pages"
+  },
+  "services": {
+    "headline": "Your Digital Success Partner",
+    "p1": "By partnering with us, you can rest assured that your digital projects are in the hands of a trusted and capable team. We are committed to helping you achieve your business goals and succeed in the competitive digital landscape."
+  },
+  "comps": {
+    "about": {},
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "headline": "Know more about",
+      "subtitle": "Everything you need to know about our services"
+    },
+    "call-to-action": {
+      "title": "We're Here to Help",
+      "subtitle": "Find the Right Elevator Solution for Your Building"
+    },
+    "whatsapp": {
+      "tooltip": "We are available! Click here to chat"
+    },
+    "funfact": {
+      "title": "We help our clients enhance elevator safety, improve system reliability, and achieve unexpected peace of mind"
+    },
+    "portfolio": {
+      "title": "Portfolios",
+      "subtitle": "Our Works.."
+    },
+    "aboutone": {
+      "title": "Why Choose Us?",
+      "subtitle": "At Al Bawaba Orgwania, we're passionate about providing exceptional elevator solutions.  We believe in combining technical expertise with a dedication to customer satisfaction.",
+      "section2": {
+        "title": "Fast Delivery, Precise Installation",
+        "text": "Keeping your elevators running smoothly is our priority. We deliver fast and accurate maintenance, installation, and programming services to minimize downtime and maximize efficiency",
+        "subtitle": "Reliable Elevator Solutions, Backed by Years of Experience and Expertise"
+      }
+    },
+    "contact-section-2": {
+      "subtitle": "Ready for Reliable and Innovative Elevator Solutions? Contact Us.",
+      "form": {
+        "subtitle": "Please write your contact details and a description about your issue and we will reach to you soon."
+      },
+      "submit": "Get a free consultation"
+    },
+    "contact": {
+      "locations": "Address",
+      "call": "Give Us A Call",
+      "email": "Reach By Email",
+      "form": {
+        "title": "Let’s talk about your issue"
+      }
+    },
+    "aboutfour": {
+      "title": "Al Bawaba Orgwania: Expert Elevator Solutions",
+      "subtitle": "Reliable Elevator Solutions, Backed by Years of Experience and Expertise",
+      "text": "At Al Bawaba Orgwania Company, we believe that strong relationships are the foundation of exceptional service.  We understand that every client is unique, and we take the time to listen to your specific needs and challenges.  Our team of experienced professionals work closely with you to develop customized elevator solutions that meet your requirements and exceed your expectations.  From the initial consultation to ongoing maintenance and support, we are committed to providing personalized service and building long-term partnerships.  We are dedicated to being your trusted advisor and your reliable partner in vertical transportation."
+    },
+    "services-wrapper": {
+      "title": "Comprehensive Elevator Solutions: From Installation to Maintenance",
+      "sub-title": "We build finely crafted elevator systems, focusing on performance, reliability, and unparalleled customer service."
+    }
+  },
+  "forms": {
+    "contact": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Write your message here"
+    }
+  },
+  "modals": {
+    "loading": {
+      "title": "Loading",
+      "message": "Please Wait..."
+    },
+    "confirm": {
+      "title": "Confirm",
+      "message": "Are you sure?",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "alert": {
+      "ok": "OK"
+    }
+  }
+}

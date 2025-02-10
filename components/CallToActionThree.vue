@@ -7,7 +7,7 @@
                 <p class="sub-title">Our team of designers, developers and creatives are perfectionists who love what they do and love where they work</p>
             </div>
             <!-- Section Title End -->
-            <NuxtLink to="/contact-us" class="btn btn-primary btn-hover-secondary">Contact Us</NuxtLink>
+            <NuxtLinkLocale to="/contact-us" class="btn btn-primary btn-hover-secondary">Contact Us</NuxtLinkLocale>
 
             <!-- Icon Animation Start -->
             <div class="shape" v-for="(shape, index) in shapeData" :key="index" :class="shape.className">

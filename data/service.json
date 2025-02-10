@@ -1,50 +1,137 @@
 [
     {
-        "id": 1,
-        "title": "Branding",
-        "slug": "branding",
-        "text": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
-        "iconSrc": "/images/svg/linea/linea-basic-target.svg",
-        "imgSrc": "/images/project/work-details-1.jpg"
+        "id": 2,
+        "title": "Elevator Installation",
+        "title_ar": "تركيب المصاعد",
+        "slug": "elevator-installation",
+        "text": "We specialize in the professional installation of high-quality Italian and European elevators, bringing a touch of elegance and superior performance to your residential or commercial property.",
+        "text_ar": "نحن متخصصون في التركيب الاحترافي للمصاعد الإيطالية والأوروبية عالية الجودة، مما يضفي لمسة من الأناقة والأداء المتميز على عقارك السكني أو التجاري.",
+        "iconSrc": "/images/svg/elevator-svgrepo-com.svg",
+        "imgSrc": "/images/elevators/4.jpeg",
+        "paragraphs": [
+            "Installing a new elevator system is a significant investment, and at Al Bawaba Orgwania, we understand the importance of getting it right.  Our team of experienced installation professionals will guide you through every step of the process, from initial consultation and design to equipment selection, installation, testing, and commissioning. We work closely with you to ensure that your new elevator system meets your building's specific requirements, budget, and aesthetic goals.",
+            "We specialize in the installation of high-quality Italian and European elevators, known for their reliability, performance, and design.  Our experienced installers adhere to the highest safety standards and industry best practices to ensure a seamless and efficient installation process. We handle all aspects of the installation, including electrical work, structural modifications, and integration with your building's systems.  With us, you can trust that your new elevator system will be installed correctly, on time, and within budget."
+        ],
+        "paragraphs_ar": [
+            "تركيب نظام مصعد جديد هو استثمار كبير، وفي البوابة الأرجوانية، ندرك أهمية إنجازه بشكل صحيح. سيرافقك فريقنا الخبير في التركيب خلال كل مرحلة، من الاستشارة والتصميم إلى اختيار المعدات والتركيب والاختبار والتشغيل. نعمل معك بشكل وثيق لضمان أن نظام المصعد الجديد يلبي متطلبات مشروعك وميزانيته وأهدافه الجمالية.",
+            "نحن متخصصون في تركيب أنظمة المصاعد الإيطالية والأوروبية عالية الجودة، المعروفة بموثوقيتها وأدائها وتصميمها المتميز. يلتزم فنيو التركيب ذوو الخبرة لدينا بأعلى معايير السلامة وأفضل الممارسات في الصناعة لضمان عملية تركيب سلسة وفعالة. نحن نتعامل مع جميع جوانب عملية التركيب، بما في ذلك الأعمال الكهربائية والتعديلات الهيكلية والتكامل مع أنظمة البناء الخاصة بك. معنا، يمكنك أن تثق في أن نظام المصعد الجديد الخاص بك سيتم تركيبه بشكل صحيح وفي الوقت المحدد وضمن الميزانية المحددة."
+        ],
+        "features": [
+            {
+                "title": "Expert Installation Team",
+                "title_ar": "فريق تركيب مُتَخَصِّص",
+                "description": "Highly skilled and certified installers with extensive experience in all elevator types.",
+                "description_ar": "فنيو تركيب مُدَرَّبون ومُعْتَمَدون بمهارات عالية وخبرة واسعة في جميع أنواع المصاعد."
+            },
+            {
+                "title": "Customized Design & Planning",
+                "title_ar": "تصميم وتخطيط مُخصَّص",
+                "description": "Tailored solutions to meet your building's specific needs and architectural style.",
+                "description_ar": "حلول مُصمَّمة لتلبية احتياجات مبناك وانسجامها مع أسلوبه المعماري."
+            },
+            {
+                "title": "Project Management",
+                "title_ar": "إدارة المشاريع",
+                "description": "Seamless project management from start to finish, ensuring on-time and within-budget completion.",
+                "description_ar": "إدارة مشاريع متكاملة، من البداية إلى النهاية، مع ضمان إنجاز ضمن الوقت والميزانية."
+            },
+            {
+                "title": "High-Quality Equipment",
+                "title_ar": "تجهيزات عالية الجودة",
+                "description": "Installation of top-quality Italian and European elevators known for their reliability and performance.",
+                "description_ar": "تركيب مصاعد إيطالية وأوروبية عالية الجودة، مشهورة بموثوقيتها وأدائها المتميز."
+            }
+        ]
     },
     {
-        "id": 2,
-        "title": "UX Design",
-        "slug": "ux-design",
-        "text": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
-        "iconSrc": "/images/svg/linea/linea-basic-picture-multiple.svg",
-        "imgSrc": "/images/project/work-details-2.jpg"
+        "id": 1,
+        "title": "Elevator Maintenance",
+        "title_ar": "خدمات صيانة المصاعد",
+        "slug": "elevator-maintenance",
+        "text": "Proactive maintenance programs to minimize downtime and maximize the lifespan of your elevators. Our expert technicians ensure reliable operation and enhance safety.",
+        "text_ar": "برامج صيانة استباقية لتقليل وقت التوقف وزيادة العمر الافتراضي لمصاعدك. يضمن فنيونا الخبراء التشغيل الموثوق به وتعزيز السلامة.",
+        "iconSrc": "/images/svg/gear-maintenance-service-svgrepo-com.svg",
+        "imgSrc": "/images/elevators/1.jpeg",
+        "paragraphs": [
+            "Regular elevator maintenance is crucial for ensuring the safety, reliability, and longevity of your vertical transportation systems.  At Al Bawaba Orgwania, we understand the importance of preventative maintenance and offer comprehensive programs tailored to your specific needs and budget.  Our experienced technicians perform thorough inspections, lubrication, adjustments, and component replacements to keep your elevators operating at peak performance. We work proactively to identify and address potential issues before they escalate, minimizing downtime and maximizing the lifespan of your valuable equipment.",
+            "Our commitment to excellence extends beyond routine maintenance.  We also offer 24/7 emergency repair services to address any unexpected issues promptly and efficiently.  Our goal is to minimize disruptions to your building operations and ensure the safety and comfort of your passengers.  With Al Bawaba Orgwania's maintenance programs, you can have peace of mind knowing that your elevators are in expert hands. We handle all major elevator brands and models, and we are dedicated to providing exceptional service and building long-term relationships with our clients."
+        ],
+        
+        "paragraphs_ar": [
+            "تُعدّ صيانة المصاعد المنتظمة أمرًا بالغ الأهمية لضمان سلامة وموثوقية وإطالة عمر أنظمة النقل العمودي الخاصة بك. في البوابة الأرجوانية نتفهم أهمية الصيانة الوقائية ونقدم برامج شاملة مصممة خصيصًا لتلبية احتياجاتك وميزانيتك المحددة. يقوم فنيونا ذوو الخبرة بعمليات فحص شاملة وتزييت وتعديلات واستبدال المكونات للحفاظ على تشغيل مصاعدك بأعلى أداء. نحن نعمل بشكل استباقي لتحديد ومعالجة المشكلات المحتملة قبل تفاقمها، مما يقلل من وقت التوقف ويزيد من العمر الافتراضي لمعداتك الثمينة.",
+            "يمتد التزامنا بالتميز إلى ما هو أبعد من الصيانة الروتينية. كما نقدم أيضًا خدمات إصلاح طارئة على مدار الساعة طوال أيام الأسبوع لمعالجة أي مشكلات غير متوقعة على الفور وبكفاءة. هدفنا هو تقليل أي اضطرابات في عمليات البناء الخاصة بك إلى الحد الأدنى وضمان سلامة وراحة ركابك. مع برامج الصيانة الخاصة بالبوابة الأرجوانية يمكنك أن تنعم براحة البال لعلمك أن مصاعدك في أيدٍ أمينة. نحن نتعامل مع جميع العلامات التجارية والموديلات الرئيسية للمصاعد، ونحن ملتزمون بتقديم خدمة استثنائية وبناء علاقات طويلة الأمد مع عملائنا."
+        ],
+        
+        "features": [
+            {
+                "title": "Preventative Maintenance",
+                "title_ar": "الصيانة الوقائية",
+                "description": "Regular inspections and maintenance to prevent breakdowns and extend the life of your elevators.",
+                "description_ar": "فحص وصيانة دورية لمنع الأعطال وإطالة عمر مصاعدك."
+            },
+            {
+                "title": "24/7 Emergency Service",
+                "title_ar": "خدمة الطوارئ على مدار الساعة",
+                "description": "Rapid response to any unexpected elevator issues, minimizing downtime and inconvenience.",
+                "description_ar": "استجابة سريعة لأي مشاكل غير متوقعة في المصاعد، مما يقلل من وقت التوقف والإزعاج."
+            },
+            {
+                "title": "Customized Maintenance Plans",
+                "title_ar": "خطط صيانة مُخصَّصة",
+                "description": "Tailored maintenance programs to fit your specific needs and budget.",
+                "description_ar": "برامج صيانة مُصمَّمة لتناسب احتياجاتك"
+            },
+            {
+                "title": "Experienced Technicians",
+                "title_ar": "فنيون متخصصون",
+                "description": "Highly skilled and certified technicians with extensive knowledge of all elevator brands and models.",
+                "description_ar": "فنيون مُدَرَّبون ومُعْتَمَدون بمهارات عالية ومعرفة واسعة بجميع العلامات التجارية والموديلات الخاصة بالمصاعد."
+            }
+        ]
     },
+    
     {
         "id": 3,
-        "title": "Strategy",
-        "slug": "strategy",
-        "text": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
-        "iconSrc": "/images/svg/linea/linea-basic-picture.svg",
-        "imgSrc": "/images/project/work-details-3.jpg"
-    },
-    {
-        "id": 4,
-        "title": "E-commerce",
-        "slug": "e-commerce",
-        "text": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
-        "iconSrc": "/images/svg/linea/linea-ecommerce-cart-plus.svg",
-        "imgSrc": "/images/project/work-details-4.jpg"
-    },
-    {
-        "id": 5,
-        "title": "Marketing",
-        "slug": "marketing",
-        "text": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
-        "iconSrc": "/images/svg/linea/linea-basic-display.svg",
-        "imgSrc": "/images/project/work-details-1.jpg"
-    },
-    {
-        "id": 6,
-        "title": "Development",
-        "slug": "development",
-        "text": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
-        "iconSrc": "/images/svg/linea/linea-basic-gear.svg",
-        "imgSrc": "/images/project/work-details-2.jpg"
+        "title": "Programming & Control",
+        "title_ar": "البرمجة والتحكم",
+        "slug": "elevator-programming",
+        "text": "Advanced programming and control solutions to optimize performance, enhance safety, and improve energy efficiency. Our expertise ensures smooth traffic flow and reduced wait times.",
+        "text_ar": "حلول متقدمة للبرمجة والتحكم لتحسين الأداء وتعزيز السلامة وتحسين كفاءة استخدام الطاقة. خبرتنا تضمن تدفقًا سلسًا لحركة المرور وتقليل أوقات الانتظار.",
+        "iconSrc": "/images/svg/programming-svgrepo-com.svg",
+        "imgSrc": "/images/project/work-details-3.jpg",
+        "paragraphs": [
+            "Effective elevator programming and control are essential for ensuring the safe and efficient operation of your vertical transportation systems. At Al Bawaba Orgwania, we specialize in providing reliable control solutions that prioritize passenger safety and optimize elevator performance. Our expert programmers work diligently to configure your elevator systems for smooth operation, minimizing disruptions and maximizing uptime.",
+            "We understand that safety is paramount.  Our programming and control solutions are designed with safety as the top priority, incorporating features that prevent accidents and ensure passenger well-being.  We adhere to the highest industry standards and best practices to deliver reliable and secure elevator control systems.  With Al Bawaba Orgwania's expertise in programming and control, you can have confidence in the safety and efficiency of your elevators."
+        ],
+        "paragraphs_ar": [
+            "برمجةُ المصاعد والتحكم الفعّال أمرٌ حيوي لتشغيل أنظمة النقل العمودي بأمان وكفاءة. في البوابة الأرجوانية، نقدم حلول تحكم موثوقة تُركّز على سلامة الركاب وتحسين أداء المصاعد. يعمل مبرمجونا الخبراء على تهيئة أنظمة المصاعد لتشغيل سلس، مما يُقلّل من الأعطال ويزيد من وقت التشغيل",
+            "نحن ندرك أن السلامة هي الأهم. تم تصميم حلول البرمجة والتحكم لدينا مع إعطاء الأولوية القصوى للسلامة، وتتضمن ميزات تمنع الحوادث وتضمن سلامة الركاب. نحن نلتزم بأعلى معايير الصناعة وأفضل الممارسات لتقديم أنظمة تحكم مصاعد موثوقة وآمنة. مع خبرة البوابة الأرجوانية في البرمجة والتحكم، يمكنك أن تثق بسلامة وكفاءة مصاعدك."
+        ],
+        "features": [
+            {
+                "title": "Safe System Configuration",
+                "title_ar": "تهيئة آمنة للنظام",
+                "description": "Expert programming to ensure safe and reliable elevator operation.",
+                "description_ar": "برمجة متخصصة لضمان تشغيل آمن وموثوق للمصاعد."
+            },
+            {
+                "title": "Optimized Performance",
+                "title_ar": "أداء أمثل ",
+                "description": "Control solutions designed for smooth traffic flow and efficient operation.",
+                "description_ar": "حلول تحكم مُصمَّمة لتشغيل فعال وتخفيف الازدحام."
+            },
+            {
+                "title": "Emergency Response Integration",
+                "title_ar": "تكامل الاستجابة السريعة للطوارئ",
+                "description": "Programming that integrates with emergency systems for rapid response.",
+                "description_ar": "برمجة متوافقة مع أنظمة الطوارئ للاستجابة السريعة."
+            },
+            {
+                "title": "Compliance with Safety Standards",
+                "title_ar": "مطابقة معايير السلامة",
+                "description": "Adherence to all relevant safety codes and regulations.",
+                "description_ar": "الالتزام بكافة قوانين ولوائح السلامة المعمول بها."
+            }
+        ]
     }
 ]

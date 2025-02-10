@@ -44,8 +44,8 @@
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
                                 <span class="info-text">
-                                    <a href="mailto:demo@example.com">demo@example.com</a>,
-                                    <a href="mailto:demo@example.com">demo@example.com</a>
+                                    <a href="mailto:info@albawaba-orgwania.com">info@albawaba-orgwania.com</a>,
+                                    <a href="mailto:info@albawaba-orgwania.com">info@albawaba-orgwania.com</a>
                                 </span>
                             </div>
                         </div>

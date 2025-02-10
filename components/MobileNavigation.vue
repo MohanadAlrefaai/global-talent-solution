@@ -2,50 +2,42 @@
     <div class="mobile-navigation">
         <nav class="offcanvas-navigation" id="offcanvas-navigation">
             <ul>
-
-
-                <li>
-                    <NuxtLink to="/">Home</NuxtLink>
-                </li>
-
-                <li>
-                    <NuxtLink to="/about">About Us</NuxtLink>
-                </li>
-                <li class="menu-item-has-children">
-                    <NuxtLink to="/service">Service</NuxtLink>
-                    <ul class="sub-menu">
-                        <li>
-                            <NuxtLink to="/service">Service</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/service/branding">Service Details</NuxtLink>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="menu-item-has-children">
-                    <NuxtLink to="/project">Project</NuxtLink>
-                    <ul class="sub-menu">
-                        <li>
-                            <NuxtLink to="/project">Project</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/project/project-details">Project Details</NuxtLink>
-                        </li>
-                    </ul>
-                </li>
-
-
-                <li>
-                    <NuxtLink to="/contact-us">Contact Us</NuxtLink>
-                </li>
-            </ul>
+            <li>
+                <NuxtLinkLocale to="/">{{ pages().home.label }}</NuxtLinkLocale>
+            </li>
+            <li>
+                <NuxtLinkLocale to="/about">{{ pages().about.label }}</NuxtLinkLocale>
+            </li>
+            <li class="menu-item-has-children">
+                <NuxtLinkLocale to="/service">{{ pages().services.label }}</NuxtLinkLocale>
+                <ul class="sub-menu">
+                    <li v-for="service in serviceData">
+                        <NuxtLinkLocale :href="`/service/${service.slug}`">{{ $transalteTitle(service) }}</NuxtLinkLocale>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <NuxtLinkLocale to="/portfolio-gallery">{{ pages().portfolio.label }}</NuxtLinkLocale>
+            </li>
+            <li>
+                <NuxtLinkLocale to="/contact-us">{{ pages().contact.label }}</NuxtLinkLocale>
+            </li>
+            <li>
+                <I18nLangSwitcher />
+            </li>
+        </ul>
         </nav>
     </div>
 </template>
 
 <script>
+import serviceData from '~/data/service.json';
 export default {
+    data() {
+        return {
+            serviceData
+        }
+    },
     mounted() {
         const offCanvasNav = document.querySelector('#offcanvas-navigation');
         const offCanvasNavSubMenu = offCanvasNav.querySelectorAll('.sub-menu');

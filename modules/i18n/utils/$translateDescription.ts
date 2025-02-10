@@ -1,0 +1,1 @@
+export default (obj: any) => $translate(obj, "description")

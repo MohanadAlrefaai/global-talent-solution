@@ -4,25 +4,23 @@
         <OffCanvasMobileMenu />
         <SearchPopup />
         <HeroSliderOne />
-        <AboutOne />
         <FeatureOne :style="{backgroundColor: '#f8faff'}" />
-        <SuccessStory />
-        <PortfolioGallery />
-        <BlogSectionOne />
-        <Newsletter />
-        <CallToActionOne />
+        <FunfactWithTitle />
+        <PortfolioGallery :is-home="true"/>
+        <AboutOne />
+        <!-- <SuccessStory /> -->
+        <!-- <BlogSectionOne /> -->
+        <!-- <Newsletter /> -->
+        <FaqOne />
+        <!-- <CallToActionOne /> -->
+        <ContactSectionTwo />
         <TheFooter />
     </div>
 </template>     
 
-<script>
-    export default {
-        head() {
-            return {
-                title: 'Corporate Business'
-            }
-        },
-    };
+<script setup>
+
+setPage(pages().home)
 </script>
 
 

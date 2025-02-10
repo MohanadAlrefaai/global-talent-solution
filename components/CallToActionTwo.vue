@@ -5,7 +5,7 @@
                 <div class="col-lg-12">
                     <div class="cta-content text-center">
                         <SectionTitle title="Let’s find out how to work together" sub-title="Ready to start your project? The contact information collected through this form will only be used to send a response to your inquiry." add-class-name="color-light" />
-                        <NuxtLink to="/contact-us" class="btn btn-primary btn-hover-secondary mt-6">Get Started</NuxtLink>
+                        <NuxtLinkLocale to="/contact-us" class="btn btn-primary btn-hover-secondary mt-6">Get Started</NuxtLinkLocale>
                     </div>
                 </div>
             </div>

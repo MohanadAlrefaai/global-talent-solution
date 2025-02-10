@@ -3,9 +3,9 @@
         <TheHeader />
         <OffCanvasMobileMenu />
         <SearchPopup />
-        <BreadcrumbOne activePageName="Service" title="We work with bold brands that we believe in" backgroundUrl= "/images/bg/breadcrumb-bg-three.jpg" />
+        <BreadcrumbOne activePageName="Service" :title="$localize('pages.services.title')" backgroundUrl= "/images/elevators/9.jpeg" />
         <ServiceWrapper />
-        <SuccessStory :style="{backgroundColor: '#f8faff'}" />
+        <!-- <SuccessStory :style="{backgroundColor: '#f8faff'}" /> -->
         <AboutFour />
         <FunfactWithTitle />
         <ContactSectionTwo />

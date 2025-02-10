@@ -13,7 +13,7 @@
     .about-image{
         position: relative;
         top: 0;
-        right: 45px;
+        // right: 45px;
         float: right;
         z-index: 9;
         &.right-n50{
@@ -29,7 +29,7 @@
         }
         @media #{$extra-small-mobile}{
             right: 0;
-            width: 250px;
+            // width: 250px;
         }
         &:nth-child(2){
             position: absolute;

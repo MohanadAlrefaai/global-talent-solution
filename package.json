@@ -8,14 +8,24 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.13.2",
-    "sass": "^1.58.3",
-    "sass-loader": "^13.2.0"
+    "nuxt": "3.13.2",
+    "sass": "1.58.3",
+    "@nuxtjs/i18n": "9.0.0",
+    "@types/nodemailer": "6.4.16",
+    "postcss-rtlcss": "5.5.0",
+    "nuxt-nodemailer": "1.1.2",
+    "nodemailer": "6.9.15",
+    "sass-loader": "13.2.0"
   },
   "dependencies": {
-    "@types/bootstrap": "^5.2.6",
-    "bootstrap": "^5.2.3",
-    "parallax-js": "^3.1.0",
-    "swiper": "^8.4.5"
+    "@pinia/nuxt": "0.5.1",
+    "@types/bootstrap": "5.2.6",
+    "bootstrap": "5.2.3",
+    "parallax-js": "3.1.0",
+    "pinia": "2.1.7",
+    "@nuxt/scripts": "0.9.4",
+    "@nuxtjs/sitemap": "6.1.1",
+    "nuxt-mail": "5.0.1",
+    "swiper": "8.4.5"
   }
 }

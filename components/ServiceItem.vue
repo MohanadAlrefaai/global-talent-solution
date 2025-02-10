@@ -4,11 +4,11 @@
             <img class="svgInject" :src="service.iconSrc" :alt="service.title">
         </div>
         <div class="content">
-            <h3 class="title">{{ service.title }}</h3>
+            <h3 class="title">{{ $transalteTitle(service) }}</h3>
             <div class="desc">
-                <p>{{ service.text }}</p>
+                <p>{{ $transalteText(service) }}</p>
             </div>
-            <NuxtLink :to="`/service/${service.slug}`" class="link">View Details</NuxtLink>
+            <NuxtLinkLocale :to="`/service/${service.slug}`" class="link">{{ $localize("common.btn-details") }}</NuxtLinkLocale>
         </div>
     </div>
 </template>

@@ -2,50 +2,32 @@
     <nav class="site-main-menu">
         <ul>
             <li>
-                <NuxtLink to="/">Home</NuxtLink>
+                <NuxtLinkLocale to="/">{{ pages().home.label }}</NuxtLinkLocale>
             </li>
             <li>
-                <NuxtLink to="/about">About Us</NuxtLink>
+                <NuxtLinkLocale to="/about">{{ pages().about.label }}</NuxtLinkLocale>
             </li>
             <li class="has-children">
-                <NuxtLink to="/service">Service</NuxtLink>
+                <NuxtLinkLocale to="/service">{{ pages().services.label }}</NuxtLinkLocale>
                 <ul class="sub-menu">
-                    <li>
-                        <NuxtLink to="/service">Service</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/service/branding">Service Details</NuxtLink>
+                    <li v-for="service in serviceData">
+                        <NuxtLinkLocale :href="`/service/${service.slug}`">{{ $transalteTitle(service) }}</NuxtLinkLocale>
                     </li>
                 </ul>
             </li>
-            <li class="has-children">
-                <NuxtLink to="/project">Project</NuxtLink>
-                <ul class="sub-menu">
-                    <li>
-                        <NuxtLink to="/project">Project</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/project/project-details">Project Details</NuxtLink>
-                    </li>
-                </ul>
-            </li>
-            <!-- <li class="has-children">
-                <NuxtLink to="/blog">Blog</NuxtLink>
-                <ul class="sub-menu">
-                    <li>
-                        <NuxtLink to="/blog">Blog Grid</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/blog/blog-classic">Blog Classic</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/blog/blog-details">Blog Details</NuxtLink>
-                    </li>
-                </ul>
-            </li> -->
             <li>
-                <NuxtLink to="/contact-us">Contact Us</NuxtLink>
+                <NuxtLinkLocale to="/portfolio-gallery">{{pages().portfolio.label}}</NuxtLinkLocale>
+            </li>
+            <li>
+                <NuxtLinkLocale to="/contact-us">{{ pages().contact.label }}</NuxtLinkLocale>
+            </li>
+            <li>
+                <I18nLangSwitcher />
             </li>
         </ul>
     </nav>
 </template>
+
+<script setup>
+    import serviceData from '~/data/service.json';
+</script>
