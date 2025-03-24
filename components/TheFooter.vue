@@ -17,7 +17,7 @@
                                 <span>{{ $localize("common.company_name") }}</span>
                                 <a :href="`tel:${footerData.footerAboutWidget.telephone}`">{{ footerData.footerAboutWidget.telephone }}</a>
                                 <a href="mailto:info@albawaba-orgwania.com">{{ footerData.footerAboutWidget.email }}</a>
-                                <span> Alsuidi building, 4th Street, Al Mararr, Dubai, U.A.E. P.O. Box: 36677</span>
+                                <span>Fronds Building - Sheikh Zayed Road, Al Goze Industrial Third, Dubai, U.A.E. P.O. Box: 214919</span>
                             </div>
                             <!-- <div class="footer-social-inline">
                                 <a :href="footerData.footerAboutWidget.twitterUrl" target="_blank">

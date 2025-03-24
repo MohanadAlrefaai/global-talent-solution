@@ -73,7 +73,7 @@
                         headingAr: "البوابة الأرجوانية: سرعة في الإنجاز ودقة في التركيب",
                         text: "Keeping your elevators running smoothly. Fast and accurate maintenance, installation, and programming.",
                         textAr: "نضمن سلاسة تشغيل مصاعدك. صيانة وتركيب وبرمجة سريعة ودقيقة",
-                        bgImgSrc: "/images/elevators/1.jpeg",
+                        bgImgSrc: "/images/elevators/6.jpeg",
                         callToAction: "Contact Us",
                         callToActionAr: "تواصل معنا"
                     },
@@ -83,7 +83,7 @@
                         headingAr: "صيانة مصاعد آمنة وموثوقة",
                         text: "Keeping your elevators running smoothly and safely. Expert maintenance you can depend on.",
                         textAr: "مصاعدك في أيدٍ أمينة، تعمل بسلاسة وأمان. صيانة خبيرة يمكنك الاعتماد عليها",
-                        bgImgSrc: "/images/elevators/6.jpeg",
+                        bgImgSrc: "/images/elevators/1.jpeg",
                         callToAction: "Request a Maintenance Quote",
                         callToActionAr: "اطلب عرض سعر صيانة"
                     },
