@@ -1,64 +1,7 @@
 <script setup lang="ts">
 const title = computed(() => $localize('pages.technology.title'))
 
-const items = [
-    {
-        "image": "/images/technology/tech5.jpeg",
-        "contents": [
-            {
-                "title": "GTS Smart Match Algorithm®",
-                "paragraphs": [
-                    "Leveraging cutting-edge technology, GTS addresses the key challenges faced by businesses in today's dynamic market environment. At the core of GTS's solution suite lies its advanced platform, which integrates state-of-the-art algorithms, artificial intelligence, and cloud-based infrastructure. Unlike traditional HR platforms, GTS's technology offers a myriad of unique features that set it apart from competitors."
-                ]
-            },
-            {
-                "title": "GTS: Boosting Canada's Economy with AI",
-                "paragraphs": [
-                    "GTS aligns with Canada's national objectives by leveraging AI and machine learning to develop advanced recruitment and workforce analytics solutions. These technologies enhance operational efficiency, improve productivity for Canadian businesses, and contribute to the creation of valuable intellectual property by fostering a culture of technological leadership and IP development, solidifying Canada's position as a key player in the global digital economy."
-                ]
-            }
-        ]
-    },
-
-    {
-        "image": "/images/technology/tech1.jpeg",
-        "contents": [
-            {
-                "title": "",
-                "paragraphs": [
-                    "Our innovative and proprietary Smart Match Algorithm ® is the foundation of our innovation and the core of our competitive differentiation. This technology revolutionizes the global recruitment industry through the elimination of language, logistical, and cultural barriers that currently inhibits firms from recruiting internationally. By developing this technology, we are propelling the global recruitment industry to new heights, increasing productivity and efficiency in hiring worldwide.",
-                    "Our GTS Smart Match Algorithm® leverages artificial intelligence, machine learning, and predictive analytics to revolutionize the recruitment process. By integrating data from employers and a global pool of candidates we provide a more effective way for employers to hire and for global candidates to find meaningful employment opportunities in Canada."
-                ]
-            },
-        ]
-    },
-
-    {
-        "image": "/images/technology/tech2.jpeg",
-        "contents": [
-            {
-                "title": "Credential Verification",
-                "paragraphs": [
-                    "GTS intends to partner with a technology provider that specializes in identity and credential verification, recognizing the critical importance of trust and accuracy in the modern recruitment landscape. We intend to integrate our platform with their technology so that we can offer our customers a streamlined experience directly through our interface, eliminating the need for external, often cumbersome, verification processes. This integration will ensure that employers can confidently assess the qualifications and backgrounds of potential candidates, while candidates can securely showcase their credentials, fostering a transparent and reliable hiring environment."
-                ]
-            },
-        ]
-    },
-
-{
-    "image": "/images/technology/tech9.avif",
-    "contents": [
-        {
-            "title": "Blockchain",
-            "paragraphs": [
-                "We intend to incorporate blockchain technology into our platform to provide a secure and transparent experience for both employers and candidates. Blockchain's immutability will secure verified credentials and employment records, while decentralized verification and a transparent audit trail will build trust. Secure data sharing, automated smart contracts, and global credential portability will streamline processes and empower candidates with greater control over their data.",
-
-                "By leveraging blockchain, GTS will establish a secure ecosystem that minimizes the risk of data breaches and facilitates efficient, equitable global recruitment. This technology will enhance data integrity, reduce the need for centralized authorities, and enable candidates to share their credentials with confidence, fostering a more trustworthy and efficient hiring environment."
-            ]
-        }
-    ]
-}
-]
+import items from '~/data/technology.json';
 
 setPage(pages().technology)
 </script>

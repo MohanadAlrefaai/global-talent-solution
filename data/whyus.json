@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Tailored Service Packages",
+      "image": "/images/content/image33.jpeg",
+      "contents": [
+          {
+              "title": "Customised Solutions",
+              "paragraphs": [
+                  "Our service packages are tailored to meet the unique needs of each client, enhancing overall satisfaction."
+              ]
+          },
+          {
+              "title": "For Canadian Employers",
+              "paragraphs": [
+                  "For B2B clients, we develop solutions that address specific business goals and operational needs."
+              ]
+          },
+          {
+              "title": "For international job-seekers",
+              "paragraphs": [
+                  "Our B2C packages are designed to cater to consumer preferences and improve customer experience."
+              ]
+          }
+      ]
+  },
+  {
+    "title": "Management Team you can trust",
+      "image": "/images/content/image21.jpg",
+      "contents": [
+          {
+              "title": "Seasoned Professionals",
+              "paragraphs": [
+                  "Our management team consists of experienced professionals who have a deep understanding of HR and talent acquisition."
+              ]
+          },
+          {
+              "title": "Strategic Direction",
+              "paragraphs": [
+                  "Each team member contributes unique insights that help shape the strategic direction of our organization."
+              ]
+          },
+          {
+              "title": "Talent Acquisition Expertise",
+              "paragraphs": [
+                  "Our team leverages their talent acquisition expertise to attract and retain top talent for the organization."
+              ]
+          }
+      ]
+  },
+  {
+    "title": "Industry Experience and Expertise",
+      "image": "/images/content/image22.jpg",
+      "contents": [
+          {
+              "title": "Diverse Team Backgrounds",
+              "paragraphs": [
+                  "Our team comprises members with diverse backgrounds, bringing varied perspectives to problem-solving and innovation."
+              ]
+          },
+          {
+              "title": "Understanding Business Challenges",
+              "paragraphs": [
+                  "We have a deep understanding of the challenges businesses face, enabling us to provide effective and relevant solutions."
+              ]
+          }
+      ]
+  },
+  {
+    "title": "Client-Centric Excellence",
+      "image": "/images/content/image23.jpg",
+      "contents": [
+          
+          {
+              "title": "Tailored Solutions",
+              "paragraphs": [
+                  "Our We offer tailored solutions specifically designed to meet the unique needs of each client, ensuring optimal outcomes."
+              ]
+          },
+          {
+              "title": "Commitment to Client Success",
+              "paragraphs": [
+                  "Our focus on client success drives every aspect of our work, ensuring we go above and beyond to achieve their goals."
+              ]
+          }
+      ]
+  }
+]
