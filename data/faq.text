@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "question": "What is GTS?",
+    "answer": "GTS is an innovative company that provides HR solutions and talent acquisition services."
+  },
+  {
+    "id": "2",
+    "question": "What services does GTS offer?",
+    "answer": "GTS offers a comprehensive portfolio of services designed to address the challenges Canadian businesses encounter in talent acquisition, management, and development."
+  },
+  {
+    "id": "3",
+    "question": "How does GTS help job-seekers?",
+    "answer": "GTS connects qualified professionals with rewarding employment and career development opportunities."
+  },
+  {
+    "id": "4",
+    "question": "What is GTS's unique technology?",
+    "answer": "GTS's unique technology is its proprietary Smart Match Algorithm®, which leverages AI, machine learning, and predictive analytics to revolutionize the recruitment process."
+  },
+  {
+    "id": "5",
+    "question": "What are the benefits of using GTS for recruitment?",
+    "answer": "GTS enhances operational efficiency, improves productivity for Canadian businesses, and contributes to the creation of valuable intellectual property."
+  },
+  {
+    "id": "6",
+    "question": "What service packages does GTS offer?",
+    "answer": "GTS offers various service packages, including a Full-Service Package, Technology-enabled Recruitment Facilitation, Candidate Training & Development Roadmaps, and Corporate Consulting & Advisory Services."
+  },
+  {
+    "id": "7",
+    "question": "Does GTS offer services for both employers and job seekers?",
+    "answer": "Yes, GTS offers B2B services designed to address the challenges businesses encounter and B2C offerings to connect professionals with career development opportunities."
+  },
+  {
+    "id": "8",
+    "question": "What is the Candidate Training & Development Roadmaps package?",
+    "answer": "This package uses the GTS Smart Match Algorithm to evaluate fit between candidates and open roles, develop roadmaps to close identified gaps, and provide candidate coaching."
+  },
+  {
+    "id": "9",
+    "question": "What do the Corporate Consulting & Advisory Services include?",
+    "answer": "These services offer tailor-made consulting to employers, including insights on industry trends, company hiring dynamics, and assistance with workforce planning, budgeting, and employee development."
+  },
+  {
+    "id": "10",
+    "question": "How does GTS ensure a secure experience?",
+    "answer": "GTS intends to incorporate blockchain technology into its platform to provide employers and candidates with a more secure and transparent experience."
+  }
+]

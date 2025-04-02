@@ -4,10 +4,14 @@
             :speed="1000"
             :loop="false"
             :navigation="swiperOptions.navigation"
+            :pagination="swiperOptions.pagination"
+            :autoplay="swiperOptions.autoplay"
             :effect="'fade'"
         >
             <swiper-slide v-for="(banner, index) in sliderData" :key="index">
-                <div class="intro-section overlay bg-cover" :style="{ backgroundImage: `url(${banner.bgImgSrc})` }">
+                <div class="intro-section overlay bg-cover relative" :style="{ backgroundImage: `url(${banner.bgImgSrc})` }">
+                    <div class="overlay position-absolute top-0 bottom-0 left-0 right-0 h-100 w-100"></div>
+                        
                     <div class="container">
                         <div class="row row-cols-lg-1 row-cols-1">
                             <div class="col align-self-center">
@@ -26,17 +30,23 @@
                     </div>
                 </div>
             </swiper-slide>
+            
+            <!-- Add Pagination -->
+            <div class="position-absolute bottom-5 left-0 right-0 w-100 d-flex justify-content-center">
+
+                <div class="swiper-pagination with-bg"></div>
+            </div>
             <!-- pagination class -->
-            <div v-if="$isRTL()" class="home-slider-prev swiper-button-prev main-slider-nav">
+            <div v-if="$isRTL()" class="home-slider-prev swiper-button-prev main-slider-nav d-none d-md-block">
                 <i class="fa fa-angle-right"></i>
             </div>
-            <div v-else class="home-slider-prev swiper-button-prev main-slider-nav">
+            <div v-else class="home-slider-prev swiper-button-prev main-slider-nav d-none d-md-block">
                 <i class="fa fa-angle-left"></i>
             </div>
-            <div v-if="$isRTL()"  class="home-slider-next swiper-button-next main-slider-nav">
+            <div v-if="$isRTL()"  class="home-slider-next swiper-button-next main-slider-nav d-none d-md-block">
                 <i class="fa fa-angle-left"></i>
             </div>
-            <div v-else class="home-slider-next swiper-button-next main-slider-nav">
+            <div v-else class="home-slider-next swiper-button-next main-slider-nav d-none d-md-block">
                 <i class="fa fa-angle-right"></i>
             </div>
         </swiper>
@@ -45,8 +55,9 @@
 
 <script>
     import { Swiper, SwiperSlide } from "swiper/vue"
-    import SwiperCore, { Navigation, EffectFade } from 'swiper/core'
-    SwiperCore.use([Navigation, EffectFade ])
+    import SwiperCore, { Navigation, Pagination, EffectFade, Autoplay } from 'swiper/core'
+    // import { Autoplay } from 'swiper/modules'
+    SwiperCore.use([Navigation, Pagination, Autoplay, EffectFade ])
 
     import "swiper/css"
     import 'swiper/css/effect-fade';
@@ -59,46 +70,110 @@
 
         data() {
             return {
+                
+                modules: [Navigation, EffectFade, Autoplay],
                 swiperOptions: {
                     navigation: {
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev'
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                        type: 'bullets',
+                    },
+                    autoplay: {
+                        delay:4000
                     }
                 },
 
                 sliderData: [
                     {
                         id: 1,
-                        heading: "Al Bawaba Orgwania for Fast and Accurate Elevator Solutions",
-                        headingAr: "البوابة الأرجوانية: سرعة في الإنجاز ودقة في التركيب",
-                        text: "Keeping your elevators running smoothly. Fast and accurate maintenance, installation, and programming.",
-                        textAr: "نضمن سلاسة تشغيل مصاعدك. صيانة وتركيب وبرمجة سريعة ودقيقة",
-                        bgImgSrc: "/images/elevators/6.jpeg",
-                        callToAction: "Contact Us",
+                        heading: "GTS Global Talent Solution",
+                        headingAr: "",
+                        text: " Innovative Technology for a World Where Talent Knows No Borders.",
+                        textAr: "",
+                        // bgImgSrc: "/images/slides/gts-4.jpeg",
+                        bgImgSrc: "/images/slides/gts-5.jpeg",
+                        callToAction: "Get Started",
+                        to: "/contact",
                         callToActionAr: "تواصل معنا"
                     },
                     {
                         id: 2,
-                        heading: "Reliable Elevator Maintenance",
-                        headingAr: "صيانة مصاعد آمنة وموثوقة",
-                        text: "Keeping your elevators running smoothly and safely. Expert maintenance you can depend on.",
-                        textAr: "مصاعدك في أيدٍ أمينة، تعمل بسلاسة وأمان. صيانة خبيرة يمكنك الاعتماد عليها",
-                        bgImgSrc: "/images/elevators/1.jpeg",
-                        callToAction: "Request a Maintenance Quote",
+                        heading: "GTS Smart Match Algorithm® For Recruitment & Job Search",
+                        headingAr: "",
+                        text: "GTS leverages artificial intelligence, machine learning, and predictive analytics to revolutionize the recruitment process.",
+                        textAr: "",
+                        bgImgSrc: "/images/slides/ai.jpeg",
+                        callToAction: "Learn More",
+                        to: "/technology",
                         callToActionAr: "اطلب عرض سعر صيانة"
                     },
                     {
                         id: 3,
-                        heading: "Expert Elevator Programming & Control Solutions",
-                        headingAr: "حلول متخصصة في برمجة و تحكم المصاعد",
-                        text: "Optimizing performance and safety with advanced programming and control solutions.",
-                        textAr: "تحقيق الأداء الأمثل والسلامة من خلال حلول برمجة وتحكم متقدمة",
-                        bgImgSrc: "/images/elevators/10.jpeg",
-                        callToAction: "Contact Us for a Consultation",
-                        callToActionAr: "تواصل معنا لمزيد من المعلومات"
-                    }
+                        heading: "Candidate Training & Development Roadmaps",
+                        headingAr: "",
+                        text: "GTS offers personalized development roadmaps and coaching services tailored to match employers' specific roles.",
+                        textAr: "",
+                        bgImgSrc: "/images/slides/choaching.jpeg",
+                        callToAction: "Our Services",
+                        to: "/services",
+                        callToActionAr: ""
+                    },
                 ]
             }
         },
     };
 </script>
+
+<style lang="scss">
+@import "@/assets/scss/variables";
+.swiper-pagination {
+		// bottom: 20px;
+		// left: 50% !important;
+		z-index: 1;
+		// position: absolute;
+		// transform: translateX(-50%);
+		.swiper-pagination-bullet {
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+			background-color: $secondary;
+			display: inline-block;
+			& + .swiper-pagination-bullet {
+				margin-left: 10px;
+			}
+		}
+	}
+
+/* ---Swiper Pagination--- */
+.swiper-pagination{
+	&-bullet{
+		&-active{
+			background-color: $secondary;
+		}
+	}
+	&.with-bg{
+		.swiper-pagination{
+			&-bullet{
+				background-color: $white;
+				opacity: 1;
+				&-active{
+					background-color: $secondary;
+				}
+			}
+		}
+	}
+	&.without-absolute{
+		position: relative;
+		padding-top: 20px;
+		bottom: 0;
+	}
+}
+
+.bottom-5 {
+    bottom: 5%;
+}
+</style>

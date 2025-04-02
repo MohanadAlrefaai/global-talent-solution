@@ -20,7 +20,8 @@
                 <div class="col pl-xl-12">
                     <div class="about-image-area faq-image-area">
                         <div class="about-image js-tilt">
-                            <img src="/images/elevators/14.jpeg" alt="image">
+                            <!-- <img src="/images/content/image19.png" alt="image"> -->
+                            <img src="/images/content/faq-2.jpeg" alt="image">
                         </div>
                         <!-- <div class="about-image js-tilt">
                             <img src="/images/faq/faq-1.jpg" alt="image">
@@ -42,3 +43,14 @@
         },
     };
 </script>
+
+<style lang="css" scoped>
+.about-image {
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+img {
+    object-fit: cover;
+    object-position: center;
+}
+</style>

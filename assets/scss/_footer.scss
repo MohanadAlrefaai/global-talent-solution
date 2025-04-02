@@ -14,6 +14,24 @@
     }
 }
 
+.footer-widget-content {    
+        & > ul {    
+            & > li {
+    
+                & > a {
+                    color: $white;
+                }
+    
+    
+                &:hover {
+                    & > a {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+}
+
 .copyright {
     font-size: 14px;
     line-height: 25px;

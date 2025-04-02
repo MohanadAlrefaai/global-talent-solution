@@ -6,17 +6,17 @@
             <!-- Section Title End -->
 
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30">
-                <div class="col mt-30" data-aos="fade-up" v-for="(feature, index) in serviceData.slice(0, 3)" :key="index">
-                    <div class="icon-box text-center" :class="addClassName">
-                        <div class="icon">
-                            <img :src="feature.iconSrc" :alt="feature.title">
-                        </div>
+                <div class="col mt-30" data-aos="fade-up" v-for="(feature, index) in serviceData" :key="index">
+                    <div class="icon">
+                        <img class="w-100 h-100" :src="feature.imgSrc" :alt="feature.title">
+                    </div>
+                    <div class="icon-box text-center pt-3 rounded-0" :class="addClassName">
                         <div class="content">
-                            <h3 class="title">{{ $transalteTitle(feature) }}</h3>
-                            <div class="desc">
+                            <NuxtLinkLocale :to="`/service`" class="link"><h3 class="title">{{ $transalteTitle(feature) }}</h3></NuxtLinkLocale>
+                            <!-- <div class="desc">
                                 <p>{{ $transalteText(feature) }}</p>
-                            </div>
-                            <NuxtLinkLocale :to="`/service/${feature.slug}`" class="link">{{ $localize('common.btn-details') }}</NuxtLinkLocale>
+                            </div> -->
+                            <!-- <NuxtLinkLocale :to="`/service/${feature.slug}`" class="link">{{ $localize('common.btn-details') }}</NuxtLinkLocale> -->
                         </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
 </template>
 
 <script>
-    import serviceData from '~/data/service.json'
+    import serviceData from '~/data/features.json'
     export default {
         props: ["addClassName"],
 
@@ -41,3 +41,13 @@
         },
     };
 </script>
+
+<style scoped>
+.icon {
+    aspect-ratio: 3/2;
+}
+img {
+    object-fit: cover;
+    object-position: center;
+}
+</style>

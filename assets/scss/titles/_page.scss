@@ -2,7 +2,7 @@
 
 .page-title-section {
     position: relative;
-    height: 530px;
+    height: 330px;
     display: flex;
     align-items: center;
     z-index: 9;
@@ -10,10 +10,10 @@
     justify-content: center;
     // Responsive
     @media #{$laptop-device, $desktop-device, $tablet-device}{
-        height: 400px;
+        height: 300px;
     }
     @media #{$large-mobile}{
-        height: 350px;
+        height: 250px;
     }
 }
 

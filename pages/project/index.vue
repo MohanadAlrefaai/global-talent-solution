@@ -6,7 +6,7 @@
         <BreadcrumbOne activePageName="All Project" title="We work with bold brands that we believe in" backgroundUrl= "/images/bg/breadcrumb-bg-two.jpg" />
         <ProjectWrapper />
         <CallToActionTwo />
-        <AboutFour />
+        <!-- <AboutFour /> -->
         <BrandLogoCarousel class="pt-0" />
         <FaqOne />
         <TheFooter />

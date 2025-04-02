@@ -1,8 +1,8 @@
 version: '3'
 services:
-  albawaba-orgwania-website:
+  gts-website:
     platform: linux/arm64/v8 # added
     restart: always
-    image: docker-registry.ofuq.ae/albawaba_orgwania_website
+    image: docker-registry.ofuq.ae/gts_website
     ports:
-      - '11800:3000'
+      - '11804:3000'

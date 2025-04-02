@@ -2,139 +2,37 @@
     {
         "id": 9,
         "imgSrc": "/images/portfolio/image-9.jpeg",
-        "title": "Show",
+        "title": "INTERNATIONAL TALENT ACQUISITION",
         "category": "Photos"
     },
     {
         "id": 10,
         "imgSrc": "/images/portfolio/image-10.jpeg",
-        "title": "Show",
+        "title": "CROSS-BORDER RECRUITMENT FACILITATION",
         "category": "Photos"
     },
     {
         "id": 11,
         "imgSrc": "/images/portfolio/image-11.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 12,
-        "imgSrc": "/images/portfolio/image-12.jpeg",
-        "title": "Show",
+        "title": "CORPORATE CONSULTING & ADVISORY SERVICES",
         "category": "Photos"
     },
     {
         "id": 23,
         "imgSrc": "/images/portfolio/image-23.jpeg",
-        "title": "Show",
+        "title": "TRAINING & DEVELOPMENT",
         "category": "Photos"
     },
     {
         "id": 14,
         "imgSrc": "/images/portfolio/image-14.jpeg",
-        "title": "Show",
+        "title": "CREDENTIALS VERIFICATION",
         "category": "Photos"
     },
     {
         "id": 15,
         "imgSrc": "/images/portfolio/image-15.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 16,
-        "imgSrc": "/images/portfolio/image-16.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 17,
-        "imgSrc": "/images/portfolio/image-17.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 18,
-        "imgSrc": "/images/portfolio/image-18.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 19,
-        "imgSrc": "/images/portfolio/image-19.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 20,
-        "imgSrc": "/images/portfolio/image-20.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 22,
-        "imgSrc": "/images/portfolio/image-22.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 13,
-        "imgSrc": "/images/portfolio/image-13.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 24,
-        "imgSrc": "/images/portfolio/image-24.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 25,
-        "imgSrc": "/images/portfolio/image-25.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 26,
-        "imgSrc": "/images/portfolio/image-26.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 28,
-        "imgSrc": "/images/portfolio/image-28.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 29,
-        "imgSrc": "/images/portfolio/image-29.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 31,
-        "imgSrc": "/images/portfolio/image-31.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 32,
-        "imgSrc": "/images/portfolio/image-32.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 33,
-        "imgSrc": "/images/portfolio/image-33.jpeg",
-        "title": "Show",
-        "category": "Photos"
-    },
-    {
-        "id": 34,
-        "imgSrc": "/images/portfolio/image-34.jpeg",
-        "title": "Show",
+        "title": "WORKFORCE ANALYTICS",
         "category": "Photos"
     }
 ]

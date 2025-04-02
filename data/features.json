@@ -1,0 +1,63 @@
+[
+    {
+        "id": 2,
+        "title": "INTERNATIONAL TALENT ACQUISITION",
+        "title_ar": "",
+        "slug": "talent-acquisition",
+        "text": "",
+        "text_ar": "",
+        "iconSrc": "/images/svg/elevator-svgrepo-com.svg",
+        "imgSrc": "/images/content/image5.jpg"
+    },
+    {
+        "id": 1,
+        "title": "CROSS-BORDER RECRUITMENT FACILITATION",
+        "title_ar": "",
+        "slug": "cross-border-recruitment-facilitation",
+        "text": "",
+        "text_ar": "",
+        "iconSrc": "/images/svg/gear-maintenance-service-svgrepo-com.svg",
+        "imgSrc": "/images/content/image17.jpg"
+    },
+    
+    { 
+        "id": 3,
+        "title": "CORPORATE CONSULTING & ADVISORY SERVICES",
+        "title_ar": "",
+        "slug": "corporate-consulting-advisory-services",
+        "text": "",
+        "text_ar": "",
+        "iconSrc": "/images/svg/programming-svgrepo-com.svg",
+        "imgSrc": "/images/content/image30.jpeg"
+    },{
+        "id": 4,
+        "title": "TRAINING & DEVELOPMENT",
+        "title_ar": "",
+        "slug": "training-development",
+        "text": "",
+        "text_ar": "",
+        "iconSrc": "/images/svg/elevator-svgrepo-com.svg",
+        "imgSrc": "/images/content/image11.jpg"
+    },
+    {
+        "id": 5,
+        "title": "CREDENTIALS VERIFICATION",
+        "title_ar": "",
+        "slug": "credentials-verification",
+        "text": "",
+        "text_ar": "",
+        "iconSrc": "/images/svg/gear-maintenance-service-svgrepo-com.svg",
+        "imgSrc": "/images/content/image32.jpeg"
+    },
+    
+    {
+        "id": 6,
+        "title": "WORKFORCE ANALYTICS",
+        "title_ar": "",
+        "slug": "workforce-analytics",
+        "text": "",
+        "text_ar": "",
+        "iconSrc": "/images/svg/programming-svgrepo-com.svg",
+        "imgSrc": "/images/content/image31.jpg"
+    }
+]

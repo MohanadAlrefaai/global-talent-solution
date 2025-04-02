@@ -15,12 +15,12 @@ export default defineNuxtModule({
           iso: 'en-US',
           file: resolve('./lang/en.json'),
         },
-        {
-          code: 'ar',
-          language: 'ar-AE',
-          iso: 'ar-AE',
-          file: resolve('./lang/ar.json'),
-        },
+        // {
+        //   code: 'ar',
+        //   language: 'ar-AE',
+        //   iso: 'ar-AE',
+        //   file: resolve('./lang/ar.json'),
+        // },
       ],
       strategy: 'prefix_except_default',
       defaultLocale: 'en',

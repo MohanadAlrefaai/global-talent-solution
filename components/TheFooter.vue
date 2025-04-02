@@ -4,7 +4,7 @@
             <!-- Footer Top Widgets Start -->
             <div class="row section-padding pt-0 mtn-30">
                 <!-- Footer Widget Start -->
-                <div class="col-md-4 col-sm-12 col-12 mt-30">
+                <div class="col-md-3 col-sm-12 col-12 mt-30">
                     <div class="footer-widget">
                         <!-- <div class="footer-logo">
                             <NuxtLinkLocale to="/">
@@ -15,12 +15,12 @@
                         <div class="footer-widget-content">
                             <div class="content">
                                 <span>{{ $localize("common.company_name") }}</span>
-                                <a :href="`tel:${footerData.footerAboutWidget.telephone}`">{{ footerData.footerAboutWidget.telephone }}</a>
-                                <a href="mailto:info@albawaba-orgwania.com">{{ footerData.footerAboutWidget.email }}</a>
-                                <span>Fronds Building - Sheikh Zayed Road, Al Goze Industrial Third, Dubai, U.A.E. P.O. Box: 214919</span>
+                                <!-- <a :href="`tel:${footerData.footerAboutWidget.telephone}`">{{ footerData.footerAboutWidget.telephone }}</a> -->
+                                <a class="text-white"  href="mailto:info@gts-globaltalentsolution.com">{{ footerData.footerAboutWidget.email }}</a>
+                                <span>Address: 1881 Steeles Ave W, Toronto, ON M3H 5Y4, Canada                                </span>
                             </div>
-                            <!-- <div class="footer-social-inline">
-                                <a :href="footerData.footerAboutWidget.twitterUrl" target="_blank">
+                            <div class="footer-social-inline">
+                                <!-- <a :href="footerData.footerAboutWidget.twitterUrl" target="_blank">
                                     <i class="fab fa-twitter-square"></i>
                                 </a>
                                 <a :href="footerData.footerAboutWidget.fbUrl" target="_blank">
@@ -28,32 +28,49 @@
                                 </a>
                                 <a :href="footerData.footerAboutWidget.instagramUrl" target="_blank">
                                     <i class="fab fa-instagram"></i>
-                                </a>
-                            </div> -->
+                                </a> -->
+                                <span>Follow Us:<a class="ms-3 d-inline-block" :href="footerData.footerAboutWidget.linkedinUrl" target="_blank">
+                                    <i class="d-inline-block fab fa-linkedin display-1"></i>
+                                </a></span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- Footer Widget End -->
                 <!-- Footer Widget Start -->
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30 ps-md-5">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 mt-30 ps-md-5">
                     <div class="footer-widget">
                         <h4 class="footer-widget-title">{{ $localize('common.pages') }}</h4>
                         <div class="footer-widget-content">
                             <ul>
                                 <li>
-                                    <NuxtLinkLocale to="/">{{ pages().home.label }}</NuxtLinkLocale>
+                                    <NuxtLinkLocale  :to="pages().home.route">{{ pages().home.label }}</NuxtLinkLocale>
                                 </li>
                                 <li>
-                                    <NuxtLinkLocale to="/about">{{ pages().about.label }}</NuxtLinkLocale>
+                                    <NuxtLinkLocale  :to="pages().services.route">{{ pages().services.label }}</NuxtLinkLocale>
                                 </li>
                                 <li>
-                                    <NuxtLinkLocale to="/about">{{ pages().services.label }}</NuxtLinkLocale>
+                                    <NuxtLinkLocale  :to="pages().technology.route">{{ pages().technology.label }}</NuxtLinkLocale>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Widget End -->
+                 <!-- Footer Widget Start -->
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 mt-30">
+                    <div class="footer-widget">
+                        <h4 class="footer-widget-title">{{ $localize('common.information') }}</h4>
+                        <div class="footer-widget-content">
+                            <ul>
+                                <li>
+                                    <NuxtLinkLocale :to="pages().contact.route">{{ pages().contact.label }}</NuxtLinkLocale>
                                 </li>
                                 <li>
-                                    <NuxtLinkLocale to="/">{{ pages().portfolio.label }}</NuxtLinkLocale>
+                                    <NuxtLinkLocale :to="pages().about.route">{{ pages().about.label }}</NuxtLinkLocale>
                                 </li>
                                 <li>
-                                    <NuxtLinkLocale to="/about">{{ pages().contact.label }}</NuxtLinkLocale>
+                                    <NuxtLinkLocale :to="pages().whyus.route">{{ pages().whyus.label }}</NuxtLinkLocale>
                                 </li>
                             </ul>
                         </div>
@@ -61,7 +78,7 @@
                 </div>
                 <!-- Footer Widget End -->
                 <!-- Footer Widget Start -->
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mt-30">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 mt-30">
                     <div class="footer-widget">
                         <h4 class="footer-widget-title">{{ $t('common.our_services') }}</h4>
                         <div class="footer-widget-content">
@@ -76,13 +93,15 @@
                 <!-- Footer Widget End -->
 
                 
+
+                
             </div>
             <!-- Footer Top Widgets End -->
 
             <!-- Footer Copyright Start -->
             <div class="row">
                 <div class="col">
-                    <p class="copyright">&copy; 2025 Al Bawaba Orgwania. Made by <a href="https://ofuq.ae" target="_blank">OFUQ Solutions</a></p>
+                    <p class="copyright">Global Talent Solution 2025 &copy;</p>
                 </div>
             </div>
             <!-- Footer Copyright End -->

@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="cta-content text-center">
-                        <SectionTitle title="Let’s find out how to work together" sub-title="Ready to start your project? The contact information collected through this form will only be used to send a response to your inquiry." add-class-name="color-light" />
+                        <SectionTitle title="Ready to Transform Your Talent Strategy?" sub-title="Connect with GTS today and discover how our innovative solutions can drive your business forward." add-class-name="color-light" />
                         <NuxtLinkLocale to="/contact-us" class="btn btn-primary btn-hover-secondary mt-6">Get Started</NuxtLinkLocale>
                     </div>
                 </div>

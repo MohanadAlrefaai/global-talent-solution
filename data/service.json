@@ -1,137 +1,161 @@
 [
     {
-        "id": 2,
-        "title": "Elevator Installation",
-        "title_ar": "تركيب المصاعد",
-        "slug": "elevator-installation",
-        "text": "We specialize in the professional installation of high-quality Italian and European elevators, bringing a touch of elegance and superior performance to your residential or commercial property.",
-        "text_ar": "نحن متخصصون في التركيب الاحترافي للمصاعد الإيطالية والأوروبية عالية الجودة، مما يضفي لمسة من الأناقة والأداء المتميز على عقارك السكني أو التجاري.",
-        "iconSrc": "/images/svg/elevator-svgrepo-com.svg",
-        "imgSrc": "/images/elevators/4.jpeg",
+        "id": "1",
+        "title": "Full B2B Service Package",
+        "slug": "full-service-package",
+        "imgSrc": "/images/content/full-service.jpeg",
         "paragraphs": [
-            "Installing a new elevator system is a significant investment, and at Al Bawaba Orgwania, we understand the importance of getting it right.  Our team of experienced installation professionals will guide you through every step of the process, from initial consultation and design to equipment selection, installation, testing, and commissioning. We work closely with you to ensure that your new elevator system meets your building's specific requirements, budget, and aesthetic goals.",
-            "We specialize in the installation of high-quality Italian and European elevators, known for their reliability, performance, and design.  Our experienced installers adhere to the highest safety standards and industry best practices to ensure a seamless and efficient installation process. We handle all aspects of the installation, including electrical work, structural modifications, and integration with your building's systems.  With us, you can trust that your new elevator system will be installed correctly, on time, and within budget."
-        ],
-        "paragraphs_ar": [
-            "تركيب نظام مصعد جديد هو استثمار كبير، وفي البوابة الأرجوانية، ندرك أهمية إنجازه بشكل صحيح. سيرافقك فريقنا الخبير في التركيب خلال كل مرحلة، من الاستشارة والتصميم إلى اختيار المعدات والتركيب والاختبار والتشغيل. نعمل معك بشكل وثيق لضمان أن نظام المصعد الجديد يلبي متطلبات مشروعك وميزانيته وأهدافه الجمالية.",
-            "نحن متخصصون في تركيب أنظمة المصاعد الإيطالية والأوروبية عالية الجودة، المعروفة بموثوقيتها وأدائها وتصميمها المتميز. يلتزم فنيو التركيب ذوو الخبرة لدينا بأعلى معايير السلامة وأفضل الممارسات في الصناعة لضمان عملية تركيب سلسة وفعالة. نحن نتعامل مع جميع جوانب عملية التركيب، بما في ذلك الأعمال الكهربائية والتعديلات الهيكلية والتكامل مع أنظمة البناء الخاصة بك. معنا، يمكنك أن تثق في أن نظام المصعد الجديد الخاص بك سيتم تركيبه بشكل صحيح وفي الوقت المحدد وضمن الميزانية المحددة."
+            "The B2B Full Service package is GTS’s most robust package for employers.",
+            "We provide end-to-end support in the recruitment process from the time an employer creates a job description to the point in which they’ve hired a successful candidate.",
+            "The employer is supported in standardizing their job descriptions on a global scale, verifying candidate credentials, evaluating candidates and understanding their fit for the role, identifying candidate competency gaps & how to close them, and developing a roadmap to close candidate gaps."
         ],
         "features": [
+            "Terminology translation",
+            "Credential verification",
+            "Fit assessment & Gap Analysis",
+            "Canadian coaching",
+            "Access to GTS’s team expertise",
+            "Identifying best Employer-Candidate match"
+        ],
+        "target_audience": "Employers",
+        "package_type": "B2B",
+        "whom_is_this_for": {
+            "name": "Sarah, HR Director at a growing tech startup",
+            "business_size": "30-200 employees",
+            "business_needs": "Sarah is responsible for overseeing the entire recruitment process and wants to scale talent acquisition in a structured way as the company expands. Her company often hires international candidates but lacks the global expertise needed to ensure proper credential verification and fit for specific roles.",
+            "pain_points": "Difficulty in evaluating international candidates, ensuring compliance with global hiring standards, and ensuring new hires are competent and fit for the role.",
+            "goals": "To streamline and professionalize the recruitment process, ensure all hires are well-qualified, and reduce hiring mistakes that cost time and resources.",
+            "package_fit": "The B2B Full Service Package provides Sarah with end-to-end recruitment support, from standardized job descriptions to credential verification and gap analysis. She values having a structured, expert-driven process to ensure hires are ready for success and meet the company’s growth needs."
+        }
+    },
+    {
+        "id": "2",
+        "title": "Technology-enabled Recruitment Facilitation",
+        "slug": "technology-enabled-recruitment-facilitation",
+        "imgSrc": "/images/content/tech.jpeg",
+        "paragraphs": [
+            "Employers can access our vast global candidate database, standardize job descriptions, and verify candidate credentials.",
+            "They handle candidate evaluation and gap identification.",
+            "For employers: We provide our employers access to that database and support them in standardizing their job descriptions for global recruitment as well as verifying credentials of candidates they’ve found through out platform.",
+            "For job-seekers: We provide global candidates with the ability to create a candidate profile and be included in our global candidate database and ensure that their credentials, education, and professional background is translated by GTS’s Smart Match Algorithm into best-fit-for-Canada profile."
+        ],
+        "features": [
+            "Terminology Translation",
+            "Credential Verification",
+            "Talent Acquisition & Recruitment"
+        ],
+        "target_audience": "Employers and Job-seekers",
+        "package_type": "B2B and B2C",
+        "whom_is_this_for": [
             {
-                "title": "Expert Installation Team",
-                "title_ar": "فريق تركيب مُتَخَصِّص",
-                "description": "Highly skilled and certified installers with extensive experience in all elevator types.",
-                "description_ar": "فنيو تركيب مُدَرَّبون ومُعْتَمَدون بمهارات عالية وخبرة واسعة في جميع أنواع المصاعد."
+                "name": "John, Talent Acquisition Manager at a small manufacturing company",
+                "business_size": "30-200 employees",
+                "business_needs": "John’s company is growing, and they need to hire more skilled workers, but they have limited in-house recruitment resources. John is open to international hires but doesn't have the expertise to evaluate them properly.",
+                "pain_points": "Overwhelmed by the recruitment process, not enough resources to vet international candidates, difficulty writing job descriptions that appeal globally.",
+                "goals": "To find qualified global candidates without going over budget, ensure that the hiring process is more efficient, and create standardized job descriptions that work for international recruitment.",
+                "package_fit": "Package 2: Technology-enabled Recruitment Facilitation offers John a simple solution—access to a global database of candidates, terminology translation, and credential verification. It allows him to streamline the hiring process without requiring extensive in-house recruitment expertise. He will be responsible for evaluating candidates, but the tools provided will help him navigate the global hiring landscape more effectively."
             },
             {
-                "title": "Customized Design & Planning",
-                "title_ar": "تصميم وتخطيط مُخصَّص",
-                "description": "Tailored solutions to meet your building's specific needs and architectural style.",
-                "description_ar": "حلول مُصمَّمة لتلبية احتياجات مبناك وانسجامها مع أسلوبه المعماري."
-            },
-            {
-                "title": "Project Management",
-                "title_ar": "إدارة المشاريع",
-                "description": "Seamless project management from start to finish, ensuring on-time and within-budget completion.",
-                "description_ar": "إدارة مشاريع متكاملة، من البداية إلى النهاية، مع ضمان إنجاز ضمن الوقت والميزانية."
-            },
-            {
-                "title": "High-Quality Equipment",
-                "title_ar": "تجهيزات عالية الجودة",
-                "description": "Installation of top-quality Italian and European elevators known for their reliability and performance.",
-                "description_ar": "تركيب مصاعد إيطالية وأوروبية عالية الجودة، مشهورة بموثوقيتها وأدائها المتميز."
+                "name": "Maria, International Candidate",
+                "background": "Maria is an experienced IT professional seeking work in Canada.",
+                "pain_points": "Uncertainty about the Canadian job market, limited access to resources to adapt her skills to Canadian standards.",
+                "goals": "To find a rewarding job in Canada, upskill if necessary, and connect with employers who are open to hiring international talent.",
+                "package_fit": "As part of the Package 2: Technology-enabled Recruitment Facilitation, Maria benefits from joining the global candidate database, where she can showcase her skills and be matched with employers. Terminology translation and credential verification will enhance her employability, helping her secure a position more easily."
             }
         ]
     },
     {
-        "id": 1,
-        "title": "Elevator Maintenance",
-        "title_ar": "خدمات صيانة المصاعد",
-        "slug": "elevator-maintenance",
-        "text": "Proactive maintenance programs to minimize downtime and maximize the lifespan of your elevators. Our expert technicians ensure reliable operation and enhance safety.",
-        "text_ar": "برامج صيانة استباقية لتقليل وقت التوقف وزيادة العمر الافتراضي لمصاعدك. يضمن فنيونا الخبراء التشغيل الموثوق به وتعزيز السلامة.",
-        "iconSrc": "/images/svg/gear-maintenance-service-svgrepo-com.svg",
-        "imgSrc": "/images/elevators/1.jpeg",
+        "id": "3",
+        "title": "Candidate Training & Development Roadmaps",
+        "slug": "candidate-training-development-roadmaps",
+        "imgSrc": "/images/content/image10.jpg",
         "paragraphs": [
-            "Regular elevator maintenance is crucial for ensuring the safety, reliability, and longevity of your vertical transportation systems.  At Al Bawaba Orgwania, we understand the importance of preventative maintenance and offer comprehensive programs tailored to your specific needs and budget.  Our experienced technicians perform thorough inspections, lubrication, adjustments, and component replacements to keep your elevators operating at peak performance. We work proactively to identify and address potential issues before they escalate, minimizing downtime and maximizing the lifespan of your valuable equipment.",
-            "Our commitment to excellence extends beyond routine maintenance.  We also offer 24/7 emergency repair services to address any unexpected issues promptly and efficiently.  Our goal is to minimize disruptions to your building operations and ensure the safety and comfort of your passengers.  With Al Bawaba Orgwania's maintenance programs, you can have peace of mind knowing that your elevators are in expert hands. We handle all major elevator brands and models, and we are dedicated to providing exceptional service and building long-term relationships with our clients."
+            "A B2B and B2C package leverages our GTS Smart Match Alorithm that helps with evaluating overall fit between candidates and open roles, developing a roadmap to close identified gaps, and providing candidate coaching for candidates that have been identified for a role "
         ],
-        
-        "paragraphs_ar": [
-            "تُعدّ صيانة المصاعد المنتظمة أمرًا بالغ الأهمية لضمان سلامة وموثوقية وإطالة عمر أنظمة النقل العمودي الخاصة بك. في البوابة الأرجوانية نتفهم أهمية الصيانة الوقائية ونقدم برامج شاملة مصممة خصيصًا لتلبية احتياجاتك وميزانيتك المحددة. يقوم فنيونا ذوو الخبرة بعمليات فحص شاملة وتزييت وتعديلات واستبدال المكونات للحفاظ على تشغيل مصاعدك بأعلى أداء. نحن نعمل بشكل استباقي لتحديد ومعالجة المشكلات المحتملة قبل تفاقمها، مما يقلل من وقت التوقف ويزيد من العمر الافتراضي لمعداتك الثمينة.",
-            "يمتد التزامنا بالتميز إلى ما هو أبعد من الصيانة الروتينية. كما نقدم أيضًا خدمات إصلاح طارئة على مدار الساعة طوال أيام الأسبوع لمعالجة أي مشكلات غير متوقعة على الفور وبكفاءة. هدفنا هو تقليل أي اضطرابات في عمليات البناء الخاصة بك إلى الحد الأدنى وضمان سلامة وراحة ركابك. مع برامج الصيانة الخاصة بالبوابة الأرجوانية يمكنك أن تنعم براحة البال لعلمك أن مصاعدك في أيدٍ أمينة. نحن نتعامل مع جميع العلامات التجارية والموديلات الرئيسية للمصاعد، ونحن ملتزمون بتقديم خدمة استثنائية وبناء علاقات طويلة الأمد مع عملائنا."
-        ],
-        
         "features": [
+            "Fit Assessments, Gap Analysis, and Actionable Recommendations",
+            "Candidate Coaching",
+            "Access to GTS’s Team Expertise",
+            "Tailored Training Programs",
+            "Boosting Employee Morale",
+            "Aligning Skills with Goals",
+            "Fostering Career Growth & Roadmap"
+        ],
+        "titledFeatures": {
+            "title": "Benefits of GTS’s Candidate Training & Development Roadmaps Service",
+            "items": [
+                {
+                    "id": "1",
+                    "title": "Tailored Training Programs",
+                    "description": "Our training programs are customized to meet the specific needs of each employee, ensuring effective skill enhancement."
+                },
+                {
+                    "id": "2",
+                    "title": "Boosting Employee Morale",
+                    "description": "Skill development initiatives not only enhance capabilities but also significantly improve employee satisfaction and morale."
+                },
+                {
+                    "id": "3",
+                    "title": "Aligning Skills with Goals",
+                    "description": "We ensure that the skills developed through training align with the organisational goals, creating a more efficient workplace."
+                },
+                {
+                    "id": "4",
+                    "title": "Fostering Career Growth & Roadmap",
+                    "description": "Development initiatives foster career growth, enabling employees to advance within the organisation and achieve their professional goals."
+                },
+                {
+                    "id": "5",
+                    "title": "Additional Description",
+                    "description": "A B2B and B2C package that assists with fit assessments, gap analysis, and providing actionable recommendations and candidate coaching."
+                }
+            ]
+        },
+        "target_audience": "Employers and Job-seekers",
+        "package_type": "B2B and B2C",
+        "whom_is_this_for": [
             {
-                "title": "Preventative Maintenance",
-                "title_ar": "الصيانة الوقائية",
-                "description": "Regular inspections and maintenance to prevent breakdowns and extend the life of your elevators.",
-                "description_ar": "فحص وصيانة دورية لمنع الأعطال وإطالة عمر مصاعدك."
+                "name": "Jake, HR Manager at a growing software company",
+                "business_size": "30-200 employees",
+                "business_needs": "Jake has identified some promising international candidates on his own or through the basic recruitment facilitation package but wants to ensure they are equipped with the right skills to integrate into the company. He needs a roadmap for each candidate, guiding their development.",
+                "pain_points": "Uncertainty about how to transition new international hires into the company culture and provide them with necessary skills without significant delays.",
+                "goals": "To onboard international hires successfully, minimize hiring risks, and ensure that new employees hit the ground running.",
+                "package_fit": "The candidate training & development roadmaps package is ideal for Jake because it offers comprehensive assessments of candidate fit and development roadmaps that outline how to close skill gaps. By combining candidate coaching and expert recommendations, Jake can ensure that the hires he’s made are well-prepared for their roles and the company culture."
             },
             {
-                "title": "24/7 Emergency Service",
-                "title_ar": "خدمة الطوارئ على مدار الساعة",
-                "description": "Rapid response to any unexpected elevator issues, minimizing downtime and inconvenience.",
-                "description_ar": "استجابة سريعة لأي مشاكل غير متوقعة في المصاعد، مما يقلل من وقت التوقف والإزعاج."
-            },
-            {
-                "title": "Customized Maintenance Plans",
-                "title_ar": "خطط صيانة مُخصَّصة",
-                "description": "Tailored maintenance programs to fit your specific needs and budget.",
-                "description_ar": "برامج صيانة مُصمَّمة لتناسب احتياجاتك"
-            },
-            {
-                "title": "Experienced Technicians",
-                "title_ar": "فنيون متخصصون",
-                "description": "Highly skilled and certified technicians with extensive knowledge of all elevator brands and models.",
-                "description_ar": "فنيون مُدَرَّبون ومُعْتَمَدون بمهارات عالية ومعرفة واسعة بجميع العلامات التجارية والموديلات الخاصة بالمصاعد."
+                "name": "Alex, International IT Specialist",
+                "background": "Alex is looking for a job in Canada and has technical expertise in IT but lacks knowledge of certain Canadian technologies and methodologies.",
+                "pain_points": "Concerned about his ability to meet Canadian employer expectations and worried about competing with local candidates.",
+                "goals": "To enhance his skill set to become a more competitive candidate for Canadian employers and ensure he can thrive in his new role once hired.",
+                "package_fit": "For Alex, the candidate training & development roadmap package provides a personalized roadmap to help him bridge any skill gaps identified during the recruitment process. By engaging in coaching and accessing expert insights, he can prepare himself for a successful transition to a Canadian workplace."
             }
         ]
     },
-    
     {
-        "id": 3,
-        "title": "Programming & Control",
-        "title_ar": "البرمجة والتحكم",
-        "slug": "elevator-programming",
-        "text": "Advanced programming and control solutions to optimize performance, enhance safety, and improve energy efficiency. Our expertise ensures smooth traffic flow and reduced wait times.",
-        "text_ar": "حلول متقدمة للبرمجة والتحكم لتحسين الأداء وتعزيز السلامة وتحسين كفاءة استخدام الطاقة. خبرتنا تضمن تدفقًا سلسًا لحركة المرور وتقليل أوقات الانتظار.",
-        "iconSrc": "/images/svg/programming-svgrepo-com.svg",
-        "imgSrc": "/images/project/work-details-3.jpg",
+        "id": "4",
+        "title": "Corporate Consulting & Advisory Services",
+        "slug": "corporate-consulting-advisory-services",
+        "imgSrc": "/images/content/image17.jpg",
         "paragraphs": [
-            "Effective elevator programming and control are essential for ensuring the safe and efficient operation of your vertical transportation systems. At Al Bawaba Orgwania, we specialize in providing reliable control solutions that prioritize passenger safety and optimize elevator performance. Our expert programmers work diligently to configure your elevator systems for smooth operation, minimizing disruptions and maximizing uptime.",
-            "We understand that safety is paramount.  Our programming and control solutions are designed with safety as the top priority, incorporating features that prevent accidents and ensure passenger well-being.  We adhere to the highest industry standards and best practices to deliver reliable and secure elevator control systems.  With Al Bawaba Orgwania's expertise in programming and control, you can have confidence in the safety and efficiency of your elevators."
-        ],
-        "paragraphs_ar": [
-            "برمجةُ المصاعد والتحكم الفعّال أمرٌ حيوي لتشغيل أنظمة النقل العمودي بأمان وكفاءة. في البوابة الأرجوانية، نقدم حلول تحكم موثوقة تُركّز على سلامة الركاب وتحسين أداء المصاعد. يعمل مبرمجونا الخبراء على تهيئة أنظمة المصاعد لتشغيل سلس، مما يُقلّل من الأعطال ويزيد من وقت التشغيل",
-            "نحن ندرك أن السلامة هي الأهم. تم تصميم حلول البرمجة والتحكم لدينا مع إعطاء الأولوية القصوى للسلامة، وتتضمن ميزات تمنع الحوادث وتضمن سلامة الركاب. نحن نلتزم بأعلى معايير الصناعة وأفضل الممارسات لتقديم أنظمة تحكم مصاعد موثوقة وآمنة. مع خبرة البوابة الأرجوانية في البرمجة والتحكم، يمكنك أن تثق بسلامة وكفاءة مصاعدك."
+            "Tailor-made consulting services: A B2B package that offers tailor-made consulting services to employers through our analysis and recommendation engine.",
+            "Our expert can generate insights related to industry trends, company hiring dynamics, and certifications.",
+            "We assist with workforce planning, budgeting, and employee development."
         ],
         "features": [
-            {
-                "title": "Safe System Configuration",
-                "title_ar": "تهيئة آمنة للنظام",
-                "description": "Expert programming to ensure safe and reliable elevator operation.",
-                "description_ar": "برمجة متخصصة لضمان تشغيل آمن وموثوق للمصاعد."
-            },
-            {
-                "title": "Optimized Performance",
-                "title_ar": "أداء أمثل ",
-                "description": "Control solutions designed for smooth traffic flow and efficient operation.",
-                "description_ar": "حلول تحكم مُصمَّمة لتشغيل فعال وتخفيف الازدحام."
-            },
-            {
-                "title": "Emergency Response Integration",
-                "title_ar": "تكامل الاستجابة السريعة للطوارئ",
-                "description": "Programming that integrates with emergency systems for rapid response.",
-                "description_ar": "برمجة متوافقة مع أنظمة الطوارئ للاستجابة السريعة."
-            },
-            {
-                "title": "Compliance with Safety Standards",
-                "title_ar": "مطابقة معايير السلامة",
-                "description": "Adherence to all relevant safety codes and regulations.",
-                "description_ar": "الالتزام بكافة قوانين ولوائح السلامة المعمول بها."
-            }
-        ]
+            "Assessing Organisational Needs",
+            "Developing HR Strategies",
+            "Implementing Best Practices",
+            "Providing Ongoing Support"
+        ],
+        "target_audience": "Employers",
+        "package_type": "B2B",
+        "whom_is_this_for": {
+            "name": "Rachel, CEO of a rapidly expanding tech company",
+            "business_size": "30-200 Employees",
+            "business_needs": "Rachel is looking to optimize the company's talent strategy and future-proof their workforce. She needs insights on industry trends, talent acquisition best practices, and how to develop a sustainable employee growth strategy.",
+            "pain_points": "Uncertainty about the company’s workforce planning for the next 3-5 years, difficulty in budgeting for global recruitment, and unsure of the certifications that are most beneficial for the company’s future needs.",
+            "goals": "To have a clear, data-driven talent strategy that helps the company scale successfully and avoid costly hiring mistakes in the future.",
+            "package_fit": "The corporate consulting & advisory services package is the perfect fit for Rachel. She will gain access to GTS’s expertise and data insights that will help her plan for the company’s future workforce needs. Custom solutions such as industry trend reports and workforce budgeting strategies will allow her to stay ahead of the curve."
+        }
     }
 ]

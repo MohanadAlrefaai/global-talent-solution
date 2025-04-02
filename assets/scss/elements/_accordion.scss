@@ -28,7 +28,7 @@
         border-bottom: none;
         border-right: none;
         .acc-btn{
-            color: $heading-color;
+            color: $primary;
             font-size: 16px;
             line-height: 24px;
             padding: 0;
@@ -51,16 +51,16 @@
                 content: "\f107";
                 right: 16px;
                 font-size: 20px;
-                color: $heading-color;
+                color: $primary;
             }
 
             &[aria-expanded="true"]{
                 background: $white;
-                color: $heading-color;
+                color: $primary;
                 border: 1px solid #eee;
                 &::before{
                     content: "\f106";
-                    color: $heading-color;
+                    color: $primary;
                 }
             }
             &:active {

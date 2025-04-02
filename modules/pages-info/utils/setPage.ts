@@ -21,7 +21,7 @@ export default (page: DefinedPageMeta) => {
         title = `${title} | ${$localize("common.title")}`
     }
     if (!description) {
-        description = `At Al Bawaba Orgwania Company, we believe that strong relationships are the foundation of exceptional service. We understand that every client is unique, and we take the time to listen to your specific needs and challenges. Our team of experienced professionals work closely with you to develop customized elevator solutions that meet your requirements and exceed your expectations. From the initial consultation to ongoing maintenance and support, we are committed to providing personalized service and building long-term partnerships. We are dedicated to being your trusted advisor and your reliable partner in vertical transportation.`
+        description = `Global Talent Solution`
     }
     if (!image) {
         image = "https://albawaba-orgwania/images/logo/logo-light.png"
@@ -45,7 +45,7 @@ export default (page: DefinedPageMeta) => {
         ogType: "website",
         ogDescription: description,
         ogImage: image,
-        ogSiteName: "Al Bawaba Orgwania",
+        ogSiteName: "Global Talent Solution",
         ogImageHeight: 200,
         ogImageWidth: 300,
         ogImageAlt: "Blog Image",

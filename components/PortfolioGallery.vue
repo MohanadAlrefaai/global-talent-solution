@@ -28,11 +28,11 @@
                 <div class="col portfolio-item" :class="portfolio.category" v-for="(portfolio, index) in items" :key="index">
                     <div v-if="selectedCat === portfolio.category || selectedCat === 'all'" class="single-portfolio">
                         <div class="thumbnail">
-                            <img class="img-fluid" :src="portfolio.imgSrc" :alt="portfolio.title">
+                            <img class="img-fluid ratio ratio-1x1" :src="portfolio.imgSrc" :alt="portfolio.title">
                         </div>
                         <div class="content">
                             <h5 class="title">
-                                <!-- <NuxtLinkLocale to="/project/project-details">{{ portfolio.title }}</NuxtLinkLocale> -->
+                                <NuxtLinkLocale to="/project/project-details">{{ portfolio.title }}</NuxtLinkLocale>
                             </h5>
                         </div>
                     </div>
@@ -72,5 +72,9 @@
 <style lang="scss">
     .portfolio-item:empty {
         display: none;
+    }
+    img {
+        object-fit: cover;
+        object-position: center;
     }
 </style>

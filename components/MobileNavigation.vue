@@ -3,24 +3,28 @@
         <nav class="offcanvas-navigation" id="offcanvas-navigation">
             <ul>
             <li>
-                <NuxtLinkLocale to="/">{{ pages().home.label }}</NuxtLinkLocale>
+                <NuxtLinkLocale :to="pages().home.route">{{ pages().home.label }}</NuxtLinkLocale>
             </li>
             <li>
-                <NuxtLinkLocale to="/about">{{ pages().about.label }}</NuxtLinkLocale>
+                <NuxtLinkLocale :to="pages().about.route">{{ pages().about.label }}</NuxtLinkLocale>
             </li>
             <li class="menu-item-has-children">
-                <NuxtLinkLocale to="/service">{{ pages().services.label }}</NuxtLinkLocale>
+                <NuxtLinkLocale :to="pages().services.route">{{ pages().services.label }}</NuxtLinkLocale>
                 <ul class="sub-menu">
                     <li v-for="service in serviceData">
                         <NuxtLinkLocale :href="`/service/${service.slug}`">{{ $transalteTitle(service) }}</NuxtLinkLocale>
                     </li>
                 </ul>
             </li>
+            
             <li>
-                <NuxtLinkLocale to="/portfolio-gallery">{{ pages().portfolio.label }}</NuxtLinkLocale>
+                <NuxtLinkLocale :to="pages().technology.route">{{pages().technology.label}}</NuxtLinkLocale>
             </li>
             <li>
-                <NuxtLinkLocale to="/contact-us">{{ pages().contact.label }}</NuxtLinkLocale>
+                <NuxtLinkLocale :to="pages().whyus.route">{{ pages().whyus.label }}</NuxtLinkLocale>
+            </li>
+            <li>
+                <NuxtLinkLocale :to="pages().contact.route">{{ pages().contact.label }}</NuxtLinkLocale>
             </li>
             <li>
                 <I18nLangSwitcher />

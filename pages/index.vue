@@ -4,13 +4,16 @@
         <OffCanvasMobileMenu />
         <SearchPopup />
         <HeroSliderOne />
+        <AboutHomeOne />
         <FeatureOne :style="{backgroundColor: '#f8faff'}" />
-        <FunfactWithTitle />
-        <PortfolioGallery :is-home="true"/>
-        <AboutOne />
+        <!-- <PortfolioGallery :is-home="true"/> -->
+        <!-- <FunfactWithTitle /> -->
+        <!-- <AboutOne /> -->
         <!-- <SuccessStory /> -->
         <!-- <BlogSectionOne /> -->
         <!-- <Newsletter /> -->
+        <CallToActionTwo />
+         <!-- <AboutFour /> -->
         <FaqOne />
         <!-- <CallToActionOne /> -->
         <ContactSectionTwo />

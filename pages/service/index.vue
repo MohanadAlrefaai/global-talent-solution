@@ -3,12 +3,14 @@
         <TheHeader />
         <OffCanvasMobileMenu />
         <SearchPopup />
-        <BreadcrumbOne activePageName="Service" :title="$localize('pages.services.title')" backgroundUrl= "/images/elevators/9.jpeg" />
-        <ServiceWrapper />
+        <BreadcrumbOne activePageName="Service" :title="$localize('pages.services.title')" backgroundUrl= "/images/slides/gts-4.jpeg" />
+        
+        <h2 class="title text-center my-5">To be implemented...</h2>
+        <!-- <ServiceWrapper /> -->
         <!-- <SuccessStory :style="{backgroundColor: '#f8faff'}" /> -->
-        <AboutFour />
-        <FunfactWithTitle />
-        <ContactSectionTwo />
+        <!-- <AboutFour /> -->
+        <!-- <FunfactWithTitle />
+        <ContactSectionTwo /> -->
         <TheFooter />
     </div>
 </template>

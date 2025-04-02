@@ -2,27 +2,33 @@
   "pages": {
     "home": {
       "title": "Home",
-      "description": "At Al Bawaba Orgwania Company, we believe that strong relationships are the foundation of exceptional service. We understand that every client is unique, and we take the time to listen to your specific needs and challenges. Our team of experienced professionals work closely with you to develop customized elevator solutions that meet your requirements and exceed your expectations. From the initial consultation to ongoing maintenance and support, we are committed to providing personalized service and building long-term partnerships. We are dedicated to being your trusted advisor and your reliable partner in vertical transportation."
+      "description": ""
     },
     "about": {
       "title": "About Us",
-      "description": "At Al Bawaba Orgwania, we're passionate about providing exceptional elevator solutions. We believe in combining technical expertise with a dedication to customer satisfaction."
+      "description": ""
     },
     "blogs": {},
     "contact": {
       "title": "Contact Us",
-      "description": "Get in touch with Al Bawaba Orgwania for all your elevator needs.  Whether you're looking for new installations, modernization services, maintenance, or repairs, our expert team is ready to assist you. Contact us today for a free consultation."
+      "description": ""
     },
     "error404": {
       "title": "Page Not Found"
     },
     "services": {
       "title": "Our Services",
-      "description": "Al Bawaba Orgwania offers a complete range of elevator services to meet all your vertical transportation needs. From new installations and modernizations to preventative maintenance and 24/7 emergency repairs, our expert team is dedicated to ensuring the safe, reliable, and efficient operation of your elevators. Explore our services below to learn more."
+      "description": ""
     },
     "portfolios": {
       "title": "Portfolios Gallery",
-      "description": "Explore Al Bawaba Orgwania's portfolio of completed elevator projects.  Browse our gallery to see examples of our new installations, modernizations, and custom solutions for various building types."
+      "description": "Explore Global Talent Solution's portfolio of completed elevator projects.  Browse our gallery to see examples of our new installations, modernizations, and custom solutions for various building types."
+    },
+    "technology": {
+      "title": "Our Technology"
+    },
+    "whyus": {
+      "title": "Why GTS"
     }
   },
   "layout": {
@@ -40,16 +46,17 @@
   "common": {
     "contactUs": "Contact Us",
     "our_services": "Our Services",
-    "our_services_title": "Comprehensive Elevator Solutions Tailored to Your Needs",
+    "our_services_title": "Your Partner with Innovative  Approaches to ",
     "btn-details": "View Details",
     "btn-show-all": "Show All",
     "btn-about-us": "About Us",
-    "company_name": "Al Bawaba Orgwania Information Technology",
-    "title": "Al Bawaba Orgwania",
+    "company_name": "Global Talent Solution",
+    "title": "Global Talent Solution",
     "btn-touch": "Get in Touch",
     "btn-submit": "Submit",
     "btn-get-started": "Get Started",
-    "pages": "Pages"
+    "pages": "Pages",
+    "information": "Information"
   },
   "services": {
     "headline": "Your Digital Success Partner",
@@ -63,8 +70,8 @@
       "subtitle": "Everything you need to know about our services"
     },
     "call-to-action": {
-      "title": "We're Here to Help",
-      "subtitle": "Find the Right Elevator Solution for Your Building"
+      "title": "Connect With Global Talent Solutions",
+      "subtitle": "We're here to help you with your global talent needs. Whether you're an employer seeking top-tier candidates or a professional looking for new opportunities, our team is ready to assist you."
     },
     "whatsapp": {
       "tooltip": "We are available! Click here to chat"
@@ -77,18 +84,18 @@
       "subtitle": "Our Works.."
     },
     "aboutone": {
-      "title": "Why Choose Us?",
-      "subtitle": "At Al Bawaba Orgwania, we're passionate about providing exceptional elevator solutions.  We believe in combining technical expertise with a dedication to customer satisfaction.",
+      "title": "Who We Are",
+      "subtitle": "Global Talent Solution powered by innovative proprietary Smart Match Algorithm ® technology  for companies, candidates, and a world where talent knows no borders",
       "section2": {
-        "title": "Fast Delivery, Precise Installation",
-        "text": "Keeping your elevators running smoothly is our priority. We deliver fast and accurate maintenance, installation, and programming services to minimize downtime and maximize efficiency",
-        "subtitle": "Reliable Elevator Solutions, Backed by Years of Experience and Expertise"
+        "title": "Global Talent Solution",
+        "text": "Global Talent Solutions is a new and innovative company ushering in a new era of innovative HR solutions and talent acquisition. The company is dedicated to revolutionizing the way businesses access global talent pools while simultaneously empowering skilled professionals to find fulfilling employment opportunities. ",
+        "subtitle": "Innovative HR and Talent Acquisition Services"
       }
     },
     "contact-section-2": {
-      "subtitle": "Ready for Reliable and Innovative Elevator Solutions? Contact Us.",
+      "subtitle": "Get in Touch and Unlock Your Global Talent Potential",
       "form": {
-        "subtitle": "Please write your contact details and a description about your issue and we will reach to you soon."
+        "subtitle": "Aiming to Transform Recruitment Processes and Enhance Business Operations?"
       },
       "submit": "Get a free consultation"
     },
@@ -97,13 +104,13 @@
       "call": "Give Us A Call",
       "email": "Reach By Email",
       "form": {
-        "title": "Let’s talk about your issue"
+        "title": "Let's Connect"
       }
     },
     "aboutfour": {
-      "title": "Al Bawaba Orgwania: Expert Elevator Solutions",
+      "title": "Global Talent Solution",
       "subtitle": "Reliable Elevator Solutions, Backed by Years of Experience and Expertise",
-      "text": "At Al Bawaba Orgwania Company, we believe that strong relationships are the foundation of exceptional service.  We understand that every client is unique, and we take the time to listen to your specific needs and challenges.  Our team of experienced professionals work closely with you to develop customized elevator solutions that meet your requirements and exceed your expectations.  From the initial consultation to ongoing maintenance and support, we are committed to providing personalized service and building long-term partnerships.  We are dedicated to being your trusted advisor and your reliable partner in vertical transportation."
+      "text": "At Global Talent Solution Company, we believe that strong relationships are the foundation of exceptional service.  We understand that every client is unique, and we take the time to listen to your specific needs and challenges.  Our team of experienced professionals work closely with you to develop customized elevator solutions that meet your requirements and exceed your expectations.  From the initial consultation to ongoing maintenance and support, we are committed to providing personalized service and building long-term partnerships.  We are dedicated to being your trusted advisor and your reliable partner in vertical transportation."
     },
     "services-wrapper": {
       "title": "Comprehensive Elevator Solutions: From Installation to Maintenance",

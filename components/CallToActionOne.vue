@@ -5,7 +5,7 @@
             <SectionTitle :title="$localize('comps.call-to-action.title')" :sub-title="$localize('comps.call-to-action.subtitle')" add-class-name="mb-30" />
             <!-- Section Title End -->
 
-            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30">
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30">
                 <div class="col mt-30" data-aos="fade-up">
                     <div class="contact-info">
                         <div class="icon mx-3">
@@ -13,22 +13,22 @@
                         </div>
                         <div class="info">
                             <h4 class="title">{{ $localize("comps.contact.locations") }}</h4>
-                            <span class="info-text">Alsuidi building, 4th Street,<br/> Al Mararr, Dubai, U.A.E.<br/> P.O. Box: 36677 </span>
+                            <span class="info-text">Address: 1881 Steeles Ave W, Toronto, ON M3H 5Y4, Canada </span>
                         </div>
                     </div>
                 </div>
 
-                <div class="col mt-30" data-aos="fade-up">
+                <!-- <div class="col mt-30" data-aos="fade-up">
                     <div class="contact-info">
                         <div class="icon mx-3">
                             <img class="svgInject" src="/images/svg/linea/linea-basic-message-txt.svg" alt="Icon">
                         </div>
                         <div class="info">
                             <h4 class="title">{{ $localize("comps.contact.call") }}</h4>
-                            <span class="info-text"> 023695177 <br/> 0588510625</span>
+                            <span class="info-text"> 0XXXXXXXXXX</span>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col mt-30" data-aos="fade-up">
                     <div class="contact-info">
@@ -38,7 +38,7 @@
                         <div class="info">
                             <h4 class="title">{{ $localize("comps.contact.email") }}</h4>
                             <span class="info-text">
-                                <a href="mailto:info@albawaba-orgwania.com">info@albawaba-orgwania.com</a>
+                                <a href="mailto:info@gts-globaltalentsolution.com">info@gts-globaltalentsolution.com</a>
                             </span>
                         </div>
                     </div>

@@ -3,10 +3,11 @@
         <TheHeader />
         <OffCanvasMobileMenu />
         <SearchPopup />
-        <BreadcrumbOne activePageName="Service" :title="$transalteTitle(service)" backgroundUrl= "/images/elevators/9.jpeg" />
+        <BreadcrumbOne activePageName="Service" :title="$transalteTitle(service)" backgroundUrl= "/images/slides/gts-4.jpeg" />
 
+        <h2 class="title text-center my-5">To be implemented...</h2>
         <!-- service section start -->
-        <section class="service-details-wrapper section-padding pb-125">
+        <!-- <section class="service-details-wrapper section-padding pb-125">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 mtn-40 order-2 order-lg-1">
@@ -19,13 +20,6 @@
                                     </li>
                                 </ul>
                             </div>
-                            <!-- <div class="service-single-widget mt-40" :style="{backgroundColor: '#f8faff'}">
-                                <h4 class="service-widget-title">Download Brochure</h4>
-                                <ul class="service-list">
-                                    <li><a href="#">Brochures.PDF</a></li>
-                                    <li><a href="#">Brochures.DOC</a></li>
-                                </ul>
-                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-8 order-1 order-lg-2">
@@ -35,10 +29,9 @@
                             </div>
                             <h3 class="mt-4 mb-3">{{ $transalteTitle(service) }}</h3>
                             <p v-if="!$isRTL()" v-for="paragraph in service.paragraphs">{{ paragraph }}</p>
-                            <p v-else v-for="paragraph in service.paragraphs_ar">{{ paragraph }}</p>
-                            <!-- <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquid quod, officiis unde nostrum itaque! Adipisci dolorum, ab dolor, exercitationem praesentium dolorem quo voluptatum itaque dignissimos, sit esse cupiditate. Doloremque rerum similique a nobis placeat in illum, quo quaerat, ut repellat, fuga itaque? Nihil mollitia nisi, nam, accusantium nemo consequuntur reiciendis autem dicta consequatur earum beatae dolor distinctio, debitis repudiandae?</p> -->
-                            <div class="row">
-                                <div v-for="feature in service.features" class="col-sm-6">
+                            <div class="row" v-if="service.titledFeatures">
+                                <p v-if="service.titledFeatures.title">{{ service.titledFeatures.title }}</p>
+                                <div v-for="feature in service.titledFeatures.items" class="col-sm-6">
                                     <div class="service-details-content mt-30">
                                         <h4>{{ $transalteTitle(feature) }}</h4>
                                         <p>{{ $translateDescription(feature) }}</p>
@@ -49,11 +42,12 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- service section end -->
 
-        <PortfolioGallery :isHome="true" />
-        <ContactSectionTwo />
+        <!-- <PortfolioGallery :isHome="true" /> -->
+         <CallToActionTwo />
+        <!-- <ContactSectionTwo /> -->
         <TheFooter />
     </div>
 </template>

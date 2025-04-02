@@ -1,10 +1,11 @@
 {
     "footerAboutWidget": {
-        "logoSrc": "/images/logo/logo-dark.png",
+        "logoSrc": "/images/logo/logo-dark.jpeg",
         "telephone": "02-369-5177",
-        "email": "info@albawaba-orgwania.com",
+        "email": "info@gts-globaltalentsolution.com",
         "fbUrl": "",
         "twitterUrl": "",
+        "linkedinUrl": "https://www.linkedin.com/company/global-talent-solutions-net",
         "instagramUrl": ""
     },
     "footerLinkTitleOne": "Services",

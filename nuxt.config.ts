@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: ["bootstrap/dist/css/bootstrap.min.css", "@/assets/scss/style.scss"],
+  css: [
+    "bootstrap/dist/css/bootstrap.min.css", 
+    "@/assets/scss/style.scss"],
 
   nitro: {
     compressPublicAssets: true,
@@ -51,8 +53,8 @@ export default defineNuxtConfig({
   }], '@nuxt/scripts',  '@nuxtjs/sitemap'],
 
   site: {
-    url: 'https://albawaba-orgwania.com',
-    name: 'Al Bawaba Orgwania'
+    url: 'https://gts-globaltalentsolution.com',
+    name: 'GTS Global Talent Solution'
   },
   sitemap: {
     sources: [
@@ -72,7 +74,7 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    appName: 'Al Bawaba Orgwania',
+    appName: 'GTS Global Talent Solution',
     baseUrl: '',
     public: {
       baseUrl: ''

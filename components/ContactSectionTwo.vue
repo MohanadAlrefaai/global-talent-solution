@@ -1,6 +1,6 @@
 <template>
     <div class="section-padding contact-section fix bg-cover overflow-hidden" data-overlay="0.7" 
-    :style="{backgroundImage: `url('/images/elevators/9.jpeg')`}"
+    :style="{backgroundImage: `url('/images/content/contactus.jpeg')`}"
     >
     <!-- :style="{backgroundImage: `url('/images/bg/contact-bg.jpg')`}" -->
         <div class="container">
@@ -22,13 +22,13 @@
                             </div>
                             <div class="info">
                                 <h4 class="title">{{ $localize('comps.contact.locations') }}</h4>
-                                <span class="info-text"> Alsuidi building, 4th Street,<br/> Al Mararr, Dubai, U.A.E.<br/> P.O. Box: 36677 </span>
+                                <span class="info-text"> 1881 Steeles Ave W, Toronto, <br/>ON M3H 5Y4, Canada</span>
                             </div>
                         </div>
                         <!-- Contact Info Item End -->
 
                         <!-- Contact Info Item Start -->
-                        <div class="contact-info info-light" data-vivus-hover>
+                        <!-- <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon ms-3 me-3">
                                 <img class="svgInject" src="/images/svg/linea/linea-basic-message-txt-white.svg" alt="">
                             </div>
@@ -38,7 +38,7 @@
                                     <a href="callto:+97123695177 "> 023695177 </a>
                                 </span>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Contact Info Item End -->
 
                         <!-- Contact Info Item Start -->
@@ -49,7 +49,7 @@
                             <div class="info">
                                 <h4 class="title">{{ $localize('comps.contact.email') }}</h4>
                                 <span class="info-text">
-                                    <a href="mailto:info@albawaba-orgwania.com">info@albawaba-orgwania.com</a>
+                                    <a class="text-white" href="mailto:info@gts-globaltalentsolution.com">info@gts-globaltalentsolution.com</a>
                                 </span>
                             </div>
                         </div>

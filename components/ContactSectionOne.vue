@@ -44,8 +44,8 @@
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
                                 <span class="info-text">
-                                    <a href="mailto:info@albawaba-orgwania.com">info@albawaba-orgwania.com</a>,
-                                    <a href="mailto:info@albawaba-orgwania.com">info@albawaba-orgwania.com</a>
+                                    <a href="mailto:info@gts-globaltalentsolution.com">info@gts-globaltalentsolution.com</a>,
+                                    <a href="mailto:info@gts-globaltalentsolution.com">info@gts-globaltalentsolution.com</a>
                                 </span>
                             </div>
                         </div>

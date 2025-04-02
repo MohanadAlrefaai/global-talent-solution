@@ -11,7 +11,7 @@ export default () => ({
         label: $localize("pages.about.title"),
         description: $localize("pages.about.description"),
         icon: "i-heroicons-home",
-        route: "/about-us"
+        route: "/about"
     },
     contact: {
         label: $localize("pages.contact.title"),
@@ -19,11 +19,17 @@ export default () => ({
         icon: "i-heroicons-home",
         route: "/contact-us"
     },
-    portfolio: {
-        label: $localize("pages.portfolios.title"),
-        description: $localize("pages.portfolios.description"),
+    technology: {
+        label: $localize("pages.technology.title"),
+        description: $localize("pages.technology.description"),
         icon: "i-heroicons-home",
-        route: "/portfolio-gallery"
+        route: "/technology"
+    },
+    whyus: {
+        label: $localize("pages.whyus.title"),
+        description: $localize("pages.whyus.description"),
+        icon: "i-heroicons-home",
+        route: "/why-gts"
     },
     services: {
         label: $localize("pages.services.title"),
