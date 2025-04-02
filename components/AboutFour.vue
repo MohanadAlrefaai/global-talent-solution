@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 col-12" data-aos="fade-up">
-                    <div class="about-content-area about-four">
+                    <div class="mt-5 mt-lg-0">
                         <div class="section-title-two">
                             <span class="sub-title">{{ $localize('comps.aboutfour.title') }}</span>
                             <h3 class="title">{{ $localize('comps.aboutfour.subtitle') }}</h3>
