@@ -22,7 +22,7 @@
                                 <h3 class="title mt-4">Our Value Proposition:</h3>    
                             </div>
                             </div>
-                        <div class="row mt-4 mb-5">
+                        <div class="row mt-4 mb-5 me-lg-5 pe-lg-2">
                             <AccordionAbout />
                             
                         </div>

@@ -9,7 +9,7 @@
         <section class="service-details-wrapper mt-5 mb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 mtn-40 order-2 order-lg-1">
+                    <div class="d-none d-md-block col-lg-4 mtn-40 order-2 order-lg-1">
                         <div class="service-details-widget">
                             <div class="service-single-widget mt-40" :style="{backgroundColor: '#f8faff'}">
                                 <h4 class="service-widget-title">{{ $localize("pages.services.title") }}</h4>

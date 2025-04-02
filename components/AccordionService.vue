@@ -17,7 +17,7 @@
                       <div :id="`accordion-item-service-collapse-${service.id}-${item.id}`" class="accordion-collapse collapse" :aria-labelledby="`#accordion-item-service-collapse-${service.id}-${item.id}`" :data-bs-parent="`#accordion-service-${service.id}-${item.id}`">
                           <div class="accordion-body">
                               <div class="row">
-                                <div class="col-5 pe-5 ps-5">
+                                <div class="col-md-5 pe-md-5 ps-md-5 ">
                                     <div class="d-flex flex-column">
                                         <div class="rounded border-1 border mb-3">
                                             <img class="w-100" :src="item.image" :alt="item.title">
@@ -29,8 +29,9 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <hr class="d-md-none">
                                 </div>
-                                <div class="col-7">
+                                <div class="col-md-7">
                                     <div class="row">
                                         <div v-for="par in item.paragraphs" class="col-12 mb-2">
                                             <span class="fs-6 text-primary fw-bold me-2">{{ par.title }}:</span>

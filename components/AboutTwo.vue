@@ -21,7 +21,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class=" col-12 mt-30" data-aos="fade-up">
+                            <div class=" col-12 mt-4" data-aos="fade-up">
                                 <div class="about-funfact">
                                     <div class="number"><span class="counter">For job-seekers </span></div>
                                     <!-- <h6 class="text">Completed projects</h6> -->
