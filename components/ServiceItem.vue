@@ -1,8 +1,8 @@
 <template>
-    <div class="icon-box text-center" :class="addClassName">
-        <div class="icon">
-            <img class="svgInject" :src="service.iconSrc" :alt="service.title">
-        </div>
+    <div class="border border-1  rounded overflow-hidden text-center m-2" :class="addClassName">
+        <!-- <div class="icon"> -->
+            <img class="mb-4" :src="service.imgSrc" :alt="service.title">
+        <!-- </div> -->
         <div class="content">
             <h3 class="title">{{ $transalteTitle(service) }}</h3>
             <div class="desc">
@@ -18,3 +18,11 @@
         props: ['service', 'addClassName']
     };
 </script>
+
+<style>
+img {
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 3/2;
+}
+</style>

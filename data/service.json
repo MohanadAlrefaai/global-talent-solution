@@ -5,9 +5,14 @@
         "slug": "full-service-package",
         "imgSrc": "/images/content/full-service.jpeg",
         "paragraphs": [
-            "The B2B Full Service package is GTS’s most robust package for employers.",
-            "We provide end-to-end support in the recruitment process from the time an employer creates a job description to the point in which they’ve hired a successful candidate.",
+            "The B2B Full Service package is GTS’s most robust package for employers. We provide end-to-end support in the recruitment process from the time an employer creates a job description to the point in which they’ve hired a successful candidate.",
             "The employer is supported in standardizing their job descriptions on a global scale, verifying candidate credentials, evaluating candidates and understanding their fit for the role, identifying candidate competency gaps & how to close them, and developing a roadmap to close candidate gaps."
+        ],
+        "highlights": [
+            {
+                "title": "Identifying best Employer-Candidate match:",
+                "description": " Our solutions focus on identifying top talent that aligns with client needs and company culture."
+            }
         ],
         "features": [
             "Terminology translation",
@@ -17,16 +22,42 @@
             "Access to GTS’s team expertise",
             "Identifying best Employer-Candidate match"
         ],
-        "target_audience": "Employers",
-        "package_type": "B2B",
-        "whom_is_this_for": {
-            "name": "Sarah, HR Director at a growing tech startup",
-            "business_size": "30-200 employees",
-            "business_needs": "Sarah is responsible for overseeing the entire recruitment process and wants to scale talent acquisition in a structured way as the company expands. Her company often hires international candidates but lacks the global expertise needed to ensure proper credential verification and fit for specific roles.",
-            "pain_points": "Difficulty in evaluating international candidates, ensuring compliance with global hiring standards, and ensuring new hires are competent and fit for the role.",
-            "goals": "To streamline and professionalize the recruitment process, ensure all hires are well-qualified, and reduce hiring mistakes that cost time and resources.",
-            "package_fit": "The B2B Full Service Package provides Sarah with end-to-end recruitment support, from standardized job descriptions to credential verification and gap analysis. She values having a structured, expert-driven process to ensure hires are ready for success and meet the company’s growth needs."
-        }
+        
+        "samples": [
+            {
+                "id": 1,
+                "title": "Meet Sarah, HR Director at a growing tech startup",
+                "image": "/images/content/image7.png",
+                "headlineItems": [
+                    {
+                        "key": "Name",
+                        "value": "Sarah, HR Director at a growing tech startup"
+                    },
+                    {
+                        "key": "Business Size",
+                        "value": "30-200 employees"
+                    }
+                ],
+                "paragraphs": [
+                    { 
+                        "title": "Business Needs",
+                        "paragraph": "Sarah is responsible for overseeing the entire recruitment process and wants to scale talent acquisition in a structured way as the company expands. Her company often hires international candidates but lacks the global expertise needed to ensure proper credential verification and fit for specific roles."
+                    },
+                    { 
+                        "title": "Pain Points",
+                        "paragraph": "Difficulty in evaluating international candidates, ensuring compliance with global hiring standards, and ensuring new hires are competent and fit for the role."
+                    },
+                    { 
+                        "title": "Goals",
+                        "paragraph": "To streamline and professionalize the recruitment process, ensure all hires are well-qualified, and reduce hiring mistakes that cost time and resources."
+                    },
+                    { 
+                        "title": "Package Fit",
+                        "paragraph": "The B2B Full Service Package provides Sarah with end-to-end recruitment support, from standardized job descriptions to credential verification and gap analysis. She values having a structured, expert-driven process to ensure hires are ready for success and meet the company’s growth needs."
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2",
@@ -34,33 +65,90 @@
         "slug": "technology-enabled-recruitment-facilitation",
         "imgSrc": "/images/content/tech.jpeg",
         "paragraphs": [
-            "Employers can access our vast global candidate database, standardize job descriptions, and verify candidate credentials.",
-            "They handle candidate evaluation and gap identification.",
-            "For employers: We provide our employers access to that database and support them in standardizing their job descriptions for global recruitment as well as verifying credentials of candidates they’ve found through out platform.",
-            "For job-seekers: We provide global candidates with the ability to create a candidate profile and be included in our global candidate database and ensure that their credentials, education, and professional background is translated by GTS’s Smart Match Algorithm into best-fit-for-Canada profile."
+            "Employers can access our vast global candidate database, standardize job descriptions, and verify candidate credentials. They handle candidate evaluation and gap identification."
         ],
-        "features": [
-            "Terminology Translation",
-            "Credential Verification",
-            "Talent Acquisition & Recruitment"
-        ],
-        "target_audience": "Employers and Job-seekers",
-        "package_type": "B2B and B2C",
-        "whom_is_this_for": [
+        "highlights":[
             {
-                "name": "John, Talent Acquisition Manager at a small manufacturing company",
-                "business_size": "30-200 employees",
-                "business_needs": "John’s company is growing, and they need to hire more skilled workers, but they have limited in-house recruitment resources. John is open to international hires but doesn't have the expertise to evaluate them properly.",
-                "pain_points": "Overwhelmed by the recruitment process, not enough resources to vet international candidates, difficulty writing job descriptions that appeal globally.",
-                "goals": "To find qualified global candidates without going over budget, ensure that the hiring process is more efficient, and create standardized job descriptions that work for international recruitment.",
-                "package_fit": "Package 2: Technology-enabled Recruitment Facilitation offers John a simple solution—access to a global database of candidates, terminology translation, and credential verification. It allows him to streamline the hiring process without requiring extensive in-house recruitment expertise. He will be responsible for evaluating candidates, but the tools provided will help him navigate the global hiring landscape more effectively."
+                "title": "For employers:",
+                "description": "We provide our employers access to that database and support them in standardizing their job descriptions for global recruitment as well as verifying credentials of candidates they’ve found through out platform. Employers are responsible for evaluating candidates themselves, identifying any gaps they don’t meet, and developing a roadmap to close those gaps."
             },
             {
-                "name": "Maria, International Candidate",
-                "background": "Maria is an experienced IT professional seeking work in Canada.",
-                "pain_points": "Uncertainty about the Canadian job market, limited access to resources to adapt her skills to Canadian standards.",
-                "goals": "To find a rewarding job in Canada, upskill if necessary, and connect with employers who are open to hiring international talent.",
-                "package_fit": "As part of the Package 2: Technology-enabled Recruitment Facilitation, Maria benefits from joining the global candidate database, where she can showcase her skills and be matched with employers. Terminology translation and credential verification will enhance her employability, helping her secure a position more easily."
+                "title": "For job-seekers:",
+                "description": "We provide global candidates with the ability to create a candidate profile and be included in our global candidate database and ensure that their credentials, education, and professional background is translated by GTS’s Smart Match Algorithm into best-fit-for-Canada profile."
+            }
+        ],
+        
+        "features": {
+            "title": "The service offerings included in this package:",
+            "items": [
+                "Terminology Translation",
+                "Credential Verification"
+            ]
+        },
+        
+        "samples": [
+            {
+                "id": 1,
+                "title": "Meet John, Talent Acquisition Manager at a small manufacturing company.",
+                "image": "/images/content/image9.png",
+                "headlineItems": [
+                    {
+                        "key": "Name",
+                        "value": "John, Talent Acquisition Manager at a small manufacturing company"
+                    },
+                    {
+                        "key": "Business Size",
+                        "value": "30-200 employees"
+                    }
+                ],
+                "paragraphs": [
+                    { 
+                        "title": "Business Needs",
+                        "paragraph": "John’s company is growing, and they need to hire more skilled workers, but they have limited in-house recruitment resources. John is open to international hires but doesn't have the expertise to evaluate them properly."
+                    },
+                    { 
+                        "title": "Pain Points",
+                        "paragraph": "Overwhelmed by the recruitment process, not enough resources to vet international candidates, difficulty writing job descriptions that appeal globally."
+                    },
+                    { 
+                        "title": "Goals",
+                        "paragraph": "To find qualified global candidates without going over budget, ensure that the hiring process is more efficient, and create standardized job descriptions that work for international recruitment."
+                    },
+                    { 
+                        "title": "Package Fit",
+                        "paragraph": "Package 2: Technology-enabled Recruitment Facilitation offers John a simple solution—access to a global database of candidates, terminology translation, and credential verification. It allows him to streamline the hiring process without requiring extensive in-house recruitment expertise. He will be responsible for evaluating candidates, but the tools provided will help him navigate the global hiring landscape more effectively."
+                    }
+                ]
+            },
+            
+            {
+                "id": 2,
+                "title": "Meet Maria, an International Candidate.",
+                "image": "/images/content/image8.png",
+                "headlineItems": [
+                    {
+                        "key": "Name",
+                        "value": "Maria, International Candidate "
+                    }
+                ],
+                "paragraphs": [
+                    { 
+                        "title": "Background",
+                        "paragraph": "Maria is an experienced IT professional seeking work in Canada. She has the skills but lacks the local certifications that Canadian employers typically prefer."
+                    },
+                    { 
+                        "title": "Pain Points",
+                        "paragraph": "Uncertainty about the Canadian job market, limited access to resources to adapt her skills to Canadian standards."
+                    },
+                    { 
+                        "title": "Goals",
+                        "paragraph": "To find a rewarding job in Canada, upskill if necessary, and connect with employers who are open to hiring international talent."
+                    },
+                    { 
+                        "title": "Package Fit",
+                        "paragraph": "As part of the Package 2: Technology-enabled Recruitment Facilitation, Maria benefits from joining the global candidate database, where she can showcase her skills and be matched with employers. Terminology translation and credential verification will enhance her employability, helping her secure a position more easily."
+                    }
+                ]
             }
         ]
     },
@@ -72,17 +160,15 @@
         "paragraphs": [
             "A B2B and B2C package leverages our GTS Smart Match Alorithm that helps with evaluating overall fit between candidates and open roles, developing a roadmap to close identified gaps, and providing candidate coaching for candidates that have been identified for a role "
         ],
-        "features": [
+        "features": {
+            "title": "The service offerings included in this package:",
+            "items": [
             "Fit Assessments, Gap Analysis, and Actionable Recommendations",
             "Candidate Coaching",
-            "Access to GTS’s Team Expertise",
-            "Tailored Training Programs",
-            "Boosting Employee Morale",
-            "Aligning Skills with Goals",
-            "Fostering Career Growth & Roadmap"
-        ],
+            "Access to GTS’s Team Expertise"
+        ]},
         "titledFeatures": {
-            "title": "Benefits of GTS’s Candidate Training & Development Roadmaps Service",
+            "title": "Benefits of GTS’s Candidate Training & Development Roadmaps Service:",
             "items": [
                 {
                     "id": "1",
@@ -111,23 +197,70 @@
                 }
             ]
         },
-        "target_audience": "Employers and Job-seekers",
-        "package_type": "B2B and B2C",
-        "whom_is_this_for": [
+        
+        "samples": [
             {
-                "name": "Jake, HR Manager at a growing software company",
-                "business_size": "30-200 employees",
-                "business_needs": "Jake has identified some promising international candidates on his own or through the basic recruitment facilitation package but wants to ensure they are equipped with the right skills to integrate into the company. He needs a roadmap for each candidate, guiding their development.",
-                "pain_points": "Uncertainty about how to transition new international hires into the company culture and provide them with necessary skills without significant delays.",
-                "goals": "To onboard international hires successfully, minimize hiring risks, and ensure that new employees hit the ground running.",
-                "package_fit": "The candidate training & development roadmaps package is ideal for Jake because it offers comprehensive assessments of candidate fit and development roadmaps that outline how to close skill gaps. By combining candidate coaching and expert recommendations, Jake can ensure that the hires he’s made are well-prepared for their roles and the company culture."
+                "id": 1,
+                "title": "Meet Jake, HR Manager at a growing software company.",
+                "image": "/images/content/image15.png",
+                "headlineItems": [
+                    {
+                        "key": "Name",
+                        "value": "Jake, HR Manager at a growing software company"
+                    },
+                    {
+                        "key": "Business Size",
+                        "value": "30-200 employees"
+                    }
+                ],
+                "paragraphs": [
+                    { 
+                        "title": "Business Needs",
+                        "paragraph": "Jake has identified some promising international candidates on his own or through the basic recruitment facilitation package but wants to ensure they are equipped with the right skills to integrate into the company. He needs a roadmap for each candidate, guiding their development."
+                    },
+                    { 
+                        "title": "Pain Points",
+                        "paragraph": "Uncertainty about how to transition new international hires into the company culture and provide them with necessary skills without significant delays."
+                    },
+                    { 
+                        "title": "Goals",
+                        "paragraph": "To onboard international hires successfully, minimize hiring risks, and ensure that new employees hit the ground running."
+                    },
+                    { 
+                        "title": "Package Fit",
+                        "paragraph": "The candidate training & development roadmaps package is ideal for Jake because it offers comprehensive assessments of candidate fit and development roadmaps that outline how to close skill gaps. By combining candidate coaching and expert recommendations, Jake can ensure that the hires he’s made are well-prepared for their roles and the company culture."
+                    }
+                ]
             },
+            
             {
-                "name": "Alex, International IT Specialist",
-                "background": "Alex is looking for a job in Canada and has technical expertise in IT but lacks knowledge of certain Canadian technologies and methodologies.",
-                "pain_points": "Concerned about his ability to meet Canadian employer expectations and worried about competing with local candidates.",
-                "goals": "To enhance his skill set to become a more competitive candidate for Canadian employers and ensure he can thrive in his new role once hired.",
-                "package_fit": "For Alex, the candidate training & development roadmap package provides a personalized roadmap to help him bridge any skill gaps identified during the recruitment process. By engaging in coaching and accessing expert insights, he can prepare himself for a successful transition to a Canadian workplace."
+                "id": 2,
+                "title": "Meet Alex, an International IT Specialist.",
+                "image": "/images/content/image16.png",
+                "headlineItems": [
+                    {
+                        "key": "Name",
+                        "value": "Alex, International IT Specialist"
+                    }
+                ],
+                "paragraphs": [
+                    { 
+                        "title": "Background",
+                        "paragraph": "Alex is looking for a job in Canada and has technical expertise in IT but lacks knowledge of certain Canadian technologies and methodologies."
+                    },
+                    { 
+                        "title": "Pain Points",
+                        "paragraph": "Concerned about his ability to meet Canadian employer expectations and worried about competing with local candidates."
+                    },
+                    { 
+                        "title": "Goals",
+                        "paragraph": "To enhance his skill set to become a more competitive candidate for Canadian employers and ensure he can thrive in his new role once hired."
+                    },
+                    { 
+                        "title": "Package Fit",
+                        "paragraph": "For Alex, the candidate training & development roadmap package provides a personalized roadmap to help him bridge any skill gaps identified during the recruitment process. By engaging in coaching and accessing expert insights, he can prepare himself for a successful transition to a Canadian workplace."
+                    }
+                ]
             }
         ]
     },
@@ -137,25 +270,64 @@
         "slug": "corporate-consulting-advisory-services",
         "imgSrc": "/images/content/image17.jpg",
         "paragraphs": [
-            "Tailor-made consulting services: A B2B package that offers tailor-made consulting services to employers through our analysis and recommendation engine.",
-            "Our expert can generate insights related to industry trends, company hiring dynamics, and certifications.",
-            "We assist with workforce planning, budgeting, and employee development."
         ],
-        "features": [
-            "Assessing Organisational Needs",
-            "Developing HR Strategies",
-            "Implementing Best Practices",
-            "Providing Ongoing Support"
+        
+        "highlights":[
+            {
+                "title": "Tailor-made consulting services:",
+                "description": "A B2B package that offers tailor-made consulting services to employers through our analysis and recommendation engine. Our expert can generate insights related to industry trends, company hiring dynamics, and certifications. We assist with workforce planning, budgeting, and employee development."
+            },
+            {
+                "title": "Assessing Organisational Needs",
+                "description": "Our services begin by evaluating the needs of an organisation to identify areas for improvement and development"
+            },
+            {
+                "title": "Developing HR Strategies",
+                "description": "We create tailored HR strategies that align with the organisation's goals and objectives to promote growth and efficiency."
+            },
+            {
+                "title": "Implementing Best Practices",
+                "description": "GTS’s experts implement industry best practices to improve HR processes and enhance employee engagement and satisfaction."
+            },
+            {
+                "title": "Providing Ongoing Support",
+                "description": "We offer continuous support and guidance to organisations, ensuring effective workforce management and development"
+            }
         ],
-        "target_audience": "Employers",
-        "package_type": "B2B",
-        "whom_is_this_for": {
-            "name": "Rachel, CEO of a rapidly expanding tech company",
-            "business_size": "30-200 Employees",
-            "business_needs": "Rachel is looking to optimize the company's talent strategy and future-proof their workforce. She needs insights on industry trends, talent acquisition best practices, and how to develop a sustainable employee growth strategy.",
-            "pain_points": "Uncertainty about the company’s workforce planning for the next 3-5 years, difficulty in budgeting for global recruitment, and unsure of the certifications that are most beneficial for the company’s future needs.",
-            "goals": "To have a clear, data-driven talent strategy that helps the company scale successfully and avoid costly hiring mistakes in the future.",
-            "package_fit": "The corporate consulting & advisory services package is the perfect fit for Rachel. She will gain access to GTS’s expertise and data insights that will help her plan for the company’s future workforce needs. Custom solutions such as industry trend reports and workforce budgeting strategies will allow her to stay ahead of the curve."
-        }
+        "samples": [
+            {
+                "id": 1,
+                "title": "Meet Rachel, CEO of a rapidly expanding tech company.",
+                "image": "/images/content/image19.png",
+                "headlineItems": [
+                    {
+                        "key": "Name",
+                        "value": "Rachel, CEO of a rapidly expanding tech company"
+                    },
+                    {
+                        "key": "Business Size",
+                        "value": "30-200 employees"
+                    }
+                ],
+                "paragraphs": [
+                    { 
+                        "title": "Business Needs",
+                        "paragraph": "Rachel is looking to optimize the company's talent strategy and future-proof their workforce. She needs insights on industry trends, talent acquisition best practices, and how to develop a sustainable employee growth strategy."
+                    },
+                    { 
+                        "title": "Pain Points",
+                        "paragraph": "Uncertainty about the company’s workforce planning for the next 3-5 years, difficulty in budgeting for global recruitment, and unsure of the certifications that are most beneficial for the company’s future needs."
+                    },
+                    { 
+                        "title": "Goals",
+                        "paragraph": "To have a clear, data-driven talent strategy that helps the company scale successfully and avoid costly hiring mistakes in the future."
+                    },
+                    { 
+                        "title": "Package Fit",
+                        "paragraph": "The corporate consulting & advisory services package is the perfect fit for Rachel. She will gain access to GTS’s expertise and data insights that will help her plan for the company’s future workforce needs. Custom solutions such as industry trend reports and workforce budgeting strategies will allow her to stay ahead of the curve."
+                    }
+                ]
+            }
+        ]
     }
 ]
