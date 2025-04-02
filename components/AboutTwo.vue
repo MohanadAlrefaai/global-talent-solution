@@ -1,5 +1,5 @@
 <template>
-    <div class="section-padding overflow-hidden">
+    <div class=" overflow-hidden">
         <div class="container">
             <div class="row">
                 <!-- About Content Start -->
@@ -7,26 +7,42 @@
                     <div class="about-content-area">
                         <!-- Section Title Two Start -->
                         <div class="section-title-two">
-                            <span class="sub-title">Web design and digital marketing</span>
-                            <h3 class="title">We think strategy, UX design, <br> and web development</h3>
+                            <span class="sub-title">Global Talent Solution</span>
+                            <h3 class="title">What We Do</h3>
                         </div>
                         <!-- Section Title Two End -->
 
                         <div class="row mtn-30">
-                            <div class="col-md-5 col-sm-6 col-12 mt-30" data-aos="fade-up">
+                            <div class=" col-12 mt-30" data-aos="fade-up">
                                 <div class="about-funfact">
-                                    <div class="number"><span class="counter">110</span>+</div>
-                                    <h6 class="text">Happy Clients</h6>
-                                    <p>We help our clients increase profits by increasing their visibility online.</p>
+                                    <div class="number"><span class="counter">For Companies</span></div>
+                                    <!-- <h6 class="text">Happy Clients</h6> -->
+                                    <p>Global Talent Solutions offers a comprehensive portfolio of services designed to address the challenges Canadian businesses encounter in talent acquisition, management, and development empowering companies to access top-tier global talent seamlessly. 
+                                    </p>
                                 </div>
                             </div>
-                            <div class="col-md-5 col-sm-6 col-12 mt-30" data-aos="fade-up">
+                            <div class=" col-12 mt-30" data-aos="fade-up">
                                 <div class="about-funfact">
-                                    <div class="number"><span class="counter">130</span>+</div>
-                                    <h6 class="text">Completed projects</h6>
-                                    <p>We help our clients increase profits by increasing their visibility online.</p>
+                                    <div class="number"><span class="counter">For job-seekers </span></div>
+                                    <!-- <h6 class="text">Completed projects</h6> -->
+                                    <p>Simultaneously, we connect qualified professionals with rewarding employment and career development opportunities. 
+                                    </p>
                                 </div>
                             </div>
+                            
+                            
+                            <div class=" col-12 mt-30" data-aos="fade-up">
+                                <div class="about-funfact">
+                                    <!-- <div class="number"><span class="counter">For job-seekers </span>+</div> -->
+                                    <!-- <h6 class="text">Completed projects</h6> -->
+                                    
+                                <p>This holistic approach fosters meaningful connections between businesses and prospective staff while navigating the complexities of the modern labor market. Our comprehensive suit of services powered by our proprietary innovative Smart Match Algorithm ® technology ensures the world where talent knows no borders. 
+                                    .</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row mtn-30">
                         </div>
                     </div>
                 </div>

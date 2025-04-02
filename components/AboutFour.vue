@@ -5,7 +5,7 @@
                 <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
-                            <img src="/images/elevators/13.jpeg" alt="image">
+                            <img src="/images/content/gts.jpeg" alt="image">
                         </div>
                         
                         <!-- Animation Shape Start -->
@@ -19,7 +19,11 @@
                             <h3 class="title">{{ $localize('comps.aboutfour.subtitle') }}</h3>
                         </div>
                         <p>{{ $localize('comps.aboutfour.text') }}</p>
-                        <NuxtLinkLocale to="/contact-us" class="btn btn-primary btn-hover-secondary mt-30">{{ $t('common.btn-touch') }}</NuxtLinkLocale>
+                        <div class="d-flex justify-start gap-4">
+
+                            <NuxtLinkLocale to="/service" class="btn btn-primary btn-hover-secondary mt-30">Our Services</NuxtLinkLocale>
+                            <NuxtLinkLocale to="/technology" class="btn btn-secondary btn-hover-primary mt-30">Check Our Technology</NuxtLinkLocale>
+                        </div>
                     </div>
                 </div>
             </div>

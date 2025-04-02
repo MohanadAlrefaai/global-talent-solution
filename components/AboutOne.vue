@@ -18,7 +18,7 @@
                             <img src="/images/elevators/5.jpeg" style="object-fit: contain; object-position: center;" width="400" height="300" alt="images">
                         </div> -->
                         <div class="about-image js-tilt mt-5">
-                            <img style="object-fit: contain; object-position: center;" src="/images/elevators/7.jpeg" width="500" height="350" alt="images">
+                            <img style="object-fit: cover; object-position: center;" src="/images/content/image-girl-1.jpeg" width="500" height="350" alt="images">
                         </div>
 
                         <!-- Animation Shape Start -->
@@ -39,7 +39,7 @@
                         <!-- Section Title Two End -->
 
                         <p>{{ $localize('comps.aboutone.section2.text') }}.</p>
-                        <NuxtLinkLocale to="/about" class="btn btn-primary btn-hover-secondary mt-4">{{ $localize('common.btn-about-us') }}</NuxtLinkLocale>
+                        <!-- <NuxtLinkLocale to="/about" class="btn btn-primary btn-hover-secondary mt-4">{{ $localize('common.btn-about-us') }}</NuxtLinkLocale> -->
                     </div>
                 </div>
                 <!-- About Start -->

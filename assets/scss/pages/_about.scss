@@ -92,7 +92,7 @@
 
 .about-content-area{
     p{
-        max-width: 420px;
+        // max-width: 420px;
         margin-bottom: 0;
         // Responsive
         @media #{$tablet-device, $large-mobile}{
@@ -112,7 +112,7 @@
     .number{
         font-size: 41px;
         line-height: 1;
-        color: $primary;
+        color: $secondary;
         margin-bottom: 15px;
     }
     .text{

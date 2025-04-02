@@ -7,7 +7,7 @@
 
         <h2 class="title text-center my-5">To be implemented...</h2>
         <!-- service section start -->
-        <!-- <section class="service-details-wrapper section-padding pb-125">
+        <section class="service-details-wrapper section-padding pb-125">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 mtn-40 order-2 order-lg-1">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- service section end -->
 
         <!-- <PortfolioGallery :isHome="true" /> -->
